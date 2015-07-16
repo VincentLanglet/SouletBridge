@@ -20,8 +20,9 @@
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "oyejorge/less.php": "dev-master",
-        "braincrafted/bootstrap-bundle": "dev-master"
+        "braincrafted/bootstrap-bundle": "2.1.*",
+        "twbs/bootstrap": "3.3.*",
+        "oyejorge/less.php": "1.7.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

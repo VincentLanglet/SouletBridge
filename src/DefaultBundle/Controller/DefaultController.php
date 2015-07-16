@@ -5,6 +5,8 @@ namespace DefaultBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
@@ -17,5 +19,27 @@ class DefaultController extends Controller
     public function indexAction()
     {
         return array();
+    }
+
+    /**
+     * @param Request $request
+     * @param string  $locale
+     *
+     * @Route("/switch_locale/{locale}", name="switch_locale")
+     *
+     * @return RedirectResponse
+     */
+    public function switchLocaleAction(Request $request, $locale = null)
+    {
+        if ($locale != null) {
+            $this->get('session')->set('_locale', $locale);
+        }
+
+        $url = $request->headers->get('referer');
+        if (empty($url)) {
+            $url = $this->container->get('router')->generate('homepage');
+        }
+
+        return new RedirectResponse($url);
     }
 }

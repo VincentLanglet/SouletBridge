@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e498e6ac928104d299fcd4e05515e437",
+    "hash": "a4b60422ab438ce5213efadd750301f5",
     "packages": [
         {
             "name": "braincrafted/bootstrap-bundle",
-            "version": "dev-master",
+            "version": "v2.1.2",
             "target-dir": "Braincrafted/Bundle/BootstrapBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braincrafted/bootstrap-bundle.git",
-                "reference": "dd53559cfe15428f07ac3681826573fab1557bd9"
+                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/dd53559cfe15428f07ac3681826573fab1557bd9",
-                "reference": "dd53559cfe15428f07ac3681826573fab1557bd9",
+                "url": "https://api.github.com/repos/braincrafted/bootstrap-bundle/zipball/c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
+                "reference": "c301bae8ba91b1a6f1045919b16f9cb9b62c7e7b",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
             "keywords": [
                 "bootstrap"
             ],
-            "time": "2015-04-15 11:59:36"
+            "time": "2015-03-06 12:14:13"
         },
         {
             "name": "doctrine/annotations",
@@ -1015,7 +1015,7 @@
         },
         {
             "name": "oyejorge/less.php",
-            "version": "dev-master",
+            "version": "v1.7.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
@@ -1627,6 +1627,57 @@
             "time": "2015-07-13 19:27:49"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2015-06-16 16:13:22"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.18.2",
             "source": {
@@ -1736,10 +1787,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "oyejorge/less.php": 20,
-        "braincrafted/bootstrap-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
