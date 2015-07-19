@@ -2,6 +2,7 @@
 
 namespace DefaultBundle\Controller;
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Cache;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -17,6 +18,17 @@ class DefaultController extends Controller
      * @return array
      */
     public function indexAction()
+    {
+        return array();
+    }
+
+    /**
+     * @Route("/contact", name="contact")
+     * @Template
+     *
+     * @return array
+     */
+    public function contactAction()
     {
         return array();
     }

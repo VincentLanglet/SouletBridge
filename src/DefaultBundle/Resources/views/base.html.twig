@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
+        {% image '@DefaultBundle/Resources/public/img/bg.jpg' output='img/bg.jpg' %}{% endimage %}
+
         {% stylesheets filter='cssrewrite' output='css/all.css'
             'css/bootstrap.css'
             '@DefaultBundle/Resources/public/css/*'
         %}
         <link href="{{ asset_url }}" rel="stylesheet">
         {% endstylesheets %}
-
-        {% image '@DefaultBundle/Resources/public/img/bg.jpg' output='img/bg.jpg' %}{% endimage %}
 
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
