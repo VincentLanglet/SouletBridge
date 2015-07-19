@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        {% stylesheets filter='cssrewrite' output='css/all.css'
+            'css/bootstrap.css'
+            '@DefaultBundle/Resources/public/css/*'
+        %}
+        <link href="{{ asset_url }}" rel="stylesheet">
+        {% endstylesheets %}
+
+        {% image '@DefaultBundle/Resources/public/img/bg.jpg' output='img/bg.jpg' %}{% endimage %}
+
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {{ include('@Default/header.html.twig') }}
+
+        {% block body %}{% endblock %}
+
+        {{ include('@Default/footer.html.twig') }}
+
+        {% javascripts output='js/all.js'
+            'js/jquery.js'
+            'js/bootstrap.js'
+        %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

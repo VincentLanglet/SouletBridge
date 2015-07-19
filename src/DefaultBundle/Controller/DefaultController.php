@@ -25,15 +25,13 @@ class DefaultController extends Controller
      * @param Request $request
      * @param string  $locale
      *
-     * @Route("/switch_locale/{locale}", name="switch_locale")
+     * @Route("/switch_locale/{locale}", name="switch_locale", requirements={ "locale" = "fr|en" })
      *
      * @return RedirectResponse
      */
-    public function switchLocaleAction(Request $request, $locale = null)
+    public function switchLocaleAction(Request $request, $locale)
     {
-        if ($locale != null) {
-            $this->get('session')->set('_locale', $locale);
-        }
+        $this->get('session')->set('_locale', $locale);
 
         $url = $request->headers->get('referer');
         if (empty($url)) {
