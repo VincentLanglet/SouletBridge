@@ -13,7 +13,7 @@
         <link href="{{ asset_url }}" rel="stylesheet">
         {% endstylesheets %}
 
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}{{ 'blocktitle' | trans({}, 'main') }}{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>

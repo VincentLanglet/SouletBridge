@@ -1,41 +1,44 @@
-<div class="brand">Business Casual</div>
+<div class="brand">
+    {{ 'title.firstline' | trans({}, 'main') }}<br />
+    {{ 'title.secondline' | trans({}, 'main') }}
+</div>
 <div class="locale-bar">
     {{ include('locale.html.twig') }}
 </div>
 
-<!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            {{ include('locale.html.twig') }}
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="{{ path('homepage') }}">Business Casual</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="{{ path('homepage') }}">Home</a>
-                </li>
-                <li>
-                    <a href="{{ path('homepage') }}">About</a>
-                </li>
-                <li>
-                    <a href="{{ path('homepage') }}">Blog</a>
-                </li>
-                <li>
-                    <a href="{{ path('contact') }}">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+    <div class="navbar-header">
+        {{ include('locale.html.twig') }}
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ path('homepage') }}">
+            {{ 'title.short' | trans({}, 'main') }}
+        </a>
     </div>
-    <!-- /.container -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="{{ path('homepage') }}">{{ 'title' | trans({}, 'home') }}</a>
+            </li>
+            <li>
+                <a href="{{ path('presentation') }}">{{ 'title' | trans({}, 'presentation') }}</a>
+            </li>
+            <li>
+                <a href="{{ path('schedule') }}">{{ 'title' | trans({}, 'schedule') }}</a>
+            </li>
+            <li>
+                <a href="{{ path('prizes') }}">{{ 'title' | trans({}, 'prizes') }}</a>
+            </li>
+            <li>
+                <a href="{{ path('partners') }}">{{ 'title' | trans({}, 'partners') }}</a>
+            </li>
+            <li>
+                <a href="{{ path('contact') }}">{{ 'title' | trans({}, 'contact') }}</a>
+            </li>
+        </ul>
+    </div>
 </nav>
