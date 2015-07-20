@@ -6,7 +6,7 @@
 
         {% image '@DefaultBundle/Resources/public/img/bg.jpg' output='img/bg.jpg' %}{% endimage %}
 
-        {% stylesheets filter='cssrewrite' output='css/all.css'
+        {% stylesheets output='css/all.css' filter='?yui_css, cssrewrite'
             'css/bootstrap.css'
             '@DefaultBundle/Resources/public/css/*'
         %}
@@ -23,7 +23,7 @@
 
         {{ include('@Default/footer.html.twig') }}
 
-        {% javascripts output='js/all.js'
+        {% javascripts output='js/all.js' filter='?yui_js'
             'js/jquery.js'
             'js/bootstrap.js'
         %}
