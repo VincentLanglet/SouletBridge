@@ -2,6 +2,7 @@
 
 namespace AdminBundle\Controller;
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -14,6 +15,7 @@ class AdminController extends Controller
      * @param Request $request
      *
      * @Route("/login", name="login")
+     * @Method({"GET", "DELETE"})
      * @Template
      *
      * @return array
@@ -38,6 +40,7 @@ class AdminController extends Controller
 
     /**
      * @Route("/admin", name="admin")
+     * @Method({"GET"})
      * @Template
      *
      * @return array

@@ -24,6 +24,7 @@ framework:
     trusted_hosts:   ~
     trusted_proxies: ~
     session:
+        name: soulet_bridge_session
         handler_id:  ~
     fragments:       ~
     http_method_override: true

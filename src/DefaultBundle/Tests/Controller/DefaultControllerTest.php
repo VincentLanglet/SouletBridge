@@ -11,7 +11,6 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -20,7 +19,6 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/presentation');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -29,7 +27,6 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/schedule');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -38,7 +35,6 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/prizes');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -47,7 +43,6 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/partners');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -56,7 +51,18 @@ class DefaultControllerTest extends WebTestCase
         $client = static::createClient();
 
         $crawler = $client->request('GET', '/contact');
-
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
+    }
+
+    public function testSwitchLocale()
+    {
+        $client = static::createClient();
+
+        $crawler = $client->request('GET', '/switch_locale/fr');
+        $this->assertEquals(302, $client->getResponse()->getStatusCode());
+
+        $crawler = $client->followRedirect();
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
+        $this->assertEquals('/', $client->getRequest()->getRequestUri());
     }
 }

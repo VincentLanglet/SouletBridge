@@ -16,8 +16,8 @@ parameters:
     mailer_password:   ~
 
     # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            ChooseYourSecret
 
-    # Admin
+    # Admin (The password 'admin' is encode with sha1)
     admin.login: admin
-    admin.password: admin
+    admin.password: d033e22ae348aeb5660fc2140aec35850c4da997

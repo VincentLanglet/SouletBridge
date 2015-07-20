@@ -2,6 +2,7 @@
 
 namespace DefaultBundle\Controller;
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -12,6 +13,7 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/", name="homepage")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -23,6 +25,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/presentation", name="presentation")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -34,6 +37,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/schedule", name="schedule")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -45,6 +49,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/prizes", name="prizes")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -56,6 +61,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/partners", name="partners")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -67,6 +73,7 @@ class DefaultController extends Controller
 
     /**
      * @Route("/contact", name="contact")
+     * @Method({"GET"})
      * @Template
      *
      * @return array
@@ -81,6 +88,7 @@ class DefaultController extends Controller
      * @param string  $locale
      *
      * @Route("/switch_locale/{locale}", name="switch_locale", requirements={ "locale" = "fr|en" })
+     * @Method({"GET"})
      *
      * @return RedirectResponse
      */
