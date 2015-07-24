@@ -1,10 +1,14 @@
+@charset "utf-8"; /* encodage classique */
+
 /*!
- * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+* Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
 
 body {
+  margin:0;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   background: url('/bundles/default/img/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
