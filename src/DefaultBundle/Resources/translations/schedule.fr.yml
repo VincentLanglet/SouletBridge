@@ -1,1 +1,48 @@
 title: Déroulement
+
+table:
+    day:
+        title: JOUR
+        "1": Jeudi 5/11
+        "2": Vendredi 6/11
+        "3": Samedi 7/11
+        "4": Dimanche 8/11
+        "5": Lundi 9/11
+        "6": Mardi 10/11
+        "7": Mercredi 11/11
+    schedule:
+        title: HORAIRE
+        "1": 0
+        "2": 0
+        "3": 0
+        "4": 0
+        "5": 0
+        "6": 0
+        "7": 0
+    program:
+        title: PROGRAMME
+        "1": 0
+        "2": 0
+        "3": 0
+        "4": 0
+        "5": 0
+        "6": 0
+        "7": 0
+    room:
+        title: SALLE
+        "1": 0
+        "2": 0
+        "3": 0
+        "4": 0
+        "5": 0
+        "6": 0
+        "7": 0
+    fees:
+        title: ENGAGEMENTS
+        "1": 0
+        "2": 0
+        "3": 0
+        "4": 0
+        "5": 0
+        "6": 0
+        "7": 0

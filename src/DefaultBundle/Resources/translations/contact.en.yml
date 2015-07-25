@@ -1,1 +1,9 @@
 title: Contact
+subtitle: Contact us
+
+name:
+    key: Name
+phone:
+    key: Phone
+email:
+    key: Email

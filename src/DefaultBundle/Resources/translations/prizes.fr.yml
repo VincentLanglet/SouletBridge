@@ -1,1 +1,8 @@
 title: Prix
+
+table:
+    tournament:
+        title: Championnat de Paris CC
+        "1": Mixte
+        "2": IMP
+        "3": Open
