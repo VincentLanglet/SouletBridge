@@ -8,7 +8,8 @@
 
         {% stylesheets output='css/all.css' filter='?yui_css, cssrewrite'
             'css/bootstrap.css'
-            '@DefaultBundle/Resources/public/css/*'
+            '@DefaultBundle/Resources/public/css/*.css'
+            '@DefaultBundle/Resources/public/css/*.less'
         %}
         <link href="{{ asset_url }}" rel="stylesheet">
         {% endstylesheets %}

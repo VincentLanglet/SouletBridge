@@ -1,0 +1,43 @@
+table {
+  text-align:center;
+  border-collapse: collapse;
+}
+
+thead {
+  border : 2px solid black;
+  text-align:center;
+  font-size: 1.7em;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 1.7em;
+}
+
+table.schedule {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  td {
+    &:nth-child(1) {
+      width: 30%;
+    }
+
+    &:nth-child(2) {
+      width: 20%;
+    }
+
+    &:nth-child(3) {
+      width: 30%;
+    }
+  }
+}
+
+table.prize {
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
