@@ -30,7 +30,7 @@ h6 {
 }
 
 p {
-  font-size: 1.25em;
+  font-size: 1.75em;
   line-height: 1.6;
   color: #000;
 }
@@ -85,12 +85,12 @@ hr {
   margin-bottom: 20px;
   padding: 30px 15px;
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.85);
 }
 
 .intro-text {
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1.75em;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -108,7 +108,7 @@ hr {
 
 footer {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.85);
 }
 
 footer p {
@@ -122,7 +122,7 @@ footer p {
     margin: 0;
     padding: 30px 0 10px;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.85);
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 5em;
     font-weight: 700;
@@ -144,7 +144,7 @@ footer p {
     margin: 0;
     padding: 0 0 40px;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.85);
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
@@ -167,11 +167,11 @@ footer p {
   .navbar-default {
     border: none;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.85);
   }
 
   .nav>li>a {
-    padding: 35px;
+    padding: 25px;
   }
 
   .navbar-nav>li>a {
@@ -183,7 +183,7 @@ footer p {
     float: none;
     margin: 0 auto;
     table-layout: fixed;
-    font-size: 1.25em;
+    font-size: 1.75em;
   }
 }
 
