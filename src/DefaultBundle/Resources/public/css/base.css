@@ -194,3 +194,23 @@ footer p {
     clear: both;
   }
 }
+
+table
+{
+    border-collapse: collapse;
+    width:100%;
+    max-width:700px;
+    min-width:400px;
+    text-align:left;
+}
+
+thead
+{
+    border : 2px solid black;
+    text-align:left;
+}
+
+td /* toutes les cases des tableauks */
+{
+    border: 1px solid black;
+}
