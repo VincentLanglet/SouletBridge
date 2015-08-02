@@ -1,7 +1,7 @@
-@charset "utf-8"; /* encodage classique */
+@charset "utf-8";
 
 body {
-  margin:0;
+  margin: 0;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   background: url('/bundles/default/img/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -10,12 +10,7 @@ body {
   -o-background-size: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
@@ -34,12 +29,12 @@ hr {
   border-color: #999999;
 }
 
-.brand {
-  display: none;
+.navbar-brand,
+.navbar-nav {
+  text-transform: uppercase;
 }
 
 .navbar-brand {
-  text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
 }
@@ -51,7 +46,7 @@ hr {
 }
 
 .navbar-header>a.locale {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .img-full {
@@ -114,15 +109,20 @@ footer p {
   padding: 50px 0;
 }
 
-@media all and (max-width: 767px) {
-    .nav>li.big-screen{
-        display: none;
-    }
+@media all and (max-width:767px) {
+  .brand,
+  .nav>li.locale {
+    display: none;
+  }
 }
 
 @media all and (min-width:768px) {
-  .brand {
+  .brand,
+  .nav>li.locale {
     display: inherit;
+  }
+
+  .brand {
     margin: 0;
     padding: 30px 0 50px;
     text-align: center;
@@ -145,20 +145,7 @@ footer p {
 
   .navbar {
     border-radius: 0;
-  }
-
-  .navbar-header {
-    display: none;
-  }
-
-  .navbar {
     min-height: 0;
-  }
-
-  .navbar-default {
-    border: none;
-    background: #fff;
-    background: rgba(255,255,255,0.85);
   }
 
   .nav>li>a.link {
@@ -169,8 +156,14 @@ footer p {
     padding: 15px 10px;
   }
 
-  .navbar-nav>li>a {
-    line-height: normal;
+  .navbar-header {
+    display: none;
+  }
+
+  .navbar-default {
+    border: none;
+    background: #fff;
+    background: rgba(255,255,255,0.85);
   }
 
   .navbar-nav {
@@ -179,6 +172,10 @@ footer p {
     margin: 0 auto;
     table-layout: fixed;
     font-size: 1.7em;
+  }
+
+  .navbar-nav>li>a {
+    line-height: normal;
   }
 }
 
