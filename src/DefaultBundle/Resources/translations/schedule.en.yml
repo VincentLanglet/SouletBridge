@@ -1,9 +1,8 @@
 title: Schedule
 
-paragraph :
-    presentation : |
-        A festival for all !
-
+presentation :
+    title : A festival for all !
+    text : |
         Everyone is welcome to come and play in the prestigious setting of the Paris Country Club against players from all over the world.
 
         We offer you 3 different tournaments in a row : Mixed Paris, IMP’s and Open with great prizes in Money and in-kind (see Prizes).
@@ -15,7 +14,6 @@ paragraph :
         An optional gala dinner will take place on Tuesday evening.
 
         A reminder: Prior to the International Festival of Paris, a championship of Paris will be held on 5th and 6th November in partnership with Funbridge devoted to novice, intermediate and recently advanced players (players will be split in different tournaments according to their ranking and be allowed to play in any tournament with a superior ranking, the other way being forbidden).
-
 
         Entry fees:
 
