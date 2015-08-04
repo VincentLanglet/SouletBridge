@@ -1,6 +1,55 @@
 {% extends 'DefaultBundle::base.html.twig' %}
 
 {% block body %}
+
+<div class="row">
+  <div class="box">
+    <div class="col-lg-12">
+      
+      <p class="imagegauche"> <a href="http://www.worldbridge.org/">
+	  <img class="img-responsive img-full" src="{{ asset('bundles/default/img/Logo-WBF.png') }}" alt="World Bridge Federation"><a/>
+      </p>
+      <p>
+	{{ ('text.WBF') | trans({}, 'partners')|nl2br }}
+      <p>
+	
+	<br>
+	
+      <p class="imagegauche"> <a href="http://www.comitedeparis.fr/">
+          <img class="img-responsive img-full" src="{{ asset('bundles/default/img/logocomiteparis.png') }}" alt="Comite de Paris"><a/>
+      </p>
+      <p>
+        {{ ('text.comite') | trans({}, 'partners')|nl2br }}
+      <p>
+
+	
+    </div>
+  </div>
+</div>
+
+<br><br>
+
+<table class="partenaires"> 
+<tr> 
+ <td><IMG SRC="{{ asset('bundles/default/img/logocomiteparis.png') }}"></td> 
+ <td><IMG SRC="{{ asset('bundles/default/img/logoffb.png') }}"></td> 
+ <td><IMG SRC="{{ asset('bundles/default/img/Logo-WBF.png') }}"></td> 
+</tr> 
+<tr> 
+ <td><IMG SRC="{{ asset('bundles/default/img/logo-fb.png') }}"></td> 
+ <td COLSPAN=2><IMG SRC="{{ asset('bundles/default/img/logo-funbridge.png') }}"></td> 
+</tr> 
+<tr> 
+ <td><IMG SRC="{{ asset('bundles/default/img/logo-pariscountry.png') }}"></td> 
+ <td COLSPAN=2><IMG SRC="{{ asset('bundles/default/img/logo-lebridgeur.png') }}"></td> 
+</tr> 
+<tr>
+ <td><IMG SRC="{{ asset('bundles/default/img/logo-vignelaure.png') }}"></td>
+ <td COLSPAN=2><IMG SRC="{{ asset('bundles/default/img/logo-vinoptimo.png') }}"></td>
+</tr>
+
+</table> 
+
 {% endblock %}
 
 {% block javascripts %}

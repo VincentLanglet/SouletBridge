@@ -24,6 +24,20 @@ p {
   color: #000;
 }
 
+p.imagegauche {
+    font-size: 1.75em;
+    line-height: 1.6;
+    color: #000;
+    float:left;
+}
+
+p.imagedroite {
+    font-size: 1.75em;
+    line-height: 1.6;
+    color: #000;
+    float:right;
+}
+
 hr {
   max-width: 400px;
   border-color: #999999;
