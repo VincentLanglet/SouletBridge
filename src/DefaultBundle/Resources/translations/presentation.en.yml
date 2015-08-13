@@ -1,10 +1,8 @@
 title: Hotel
 
-text:
-    titre: |
-        Titre à ajouter.
-
-    hotel: |
+hotel:
+    title: Titre à ajouter.
+    text: |
         Surrounded by lush green and tranquil countryside and just 15 minutes by car from downtown Paris, the hotel presents an ideal escape from city life.
 
         Unwind with a swim in our outdoor heated pool and enjoy one of the bar’s cocktail creations.
@@ -15,4 +13,8 @@ text:
 
         All the hotel guests will appreciate complementary internet access, on-site fitness center and a restaurant, serving traditional French home-made cuisine.
 
-
+reservation:
+    title: Titre à ajouter.
+    phone: Phone
+    email: Email
+    address: Address

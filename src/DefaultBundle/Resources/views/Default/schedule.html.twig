@@ -15,40 +15,36 @@
                     </p>
                     <table class="schedule">
                         <thead>
-                        <tr>
-                            <td>
-                                {{ ('table.day.title') | trans({}, 'schedule') }}
-                            </td>
-                            <td>
-                                {{ ('table.schedule.title') | trans({}, 'schedule') }}
-                            </td>
-                            <td>
-                                {{ ('table.program.title') | trans({}, 'schedule') }}
-                            </td>
-                        </tr>
+                            <tr>
+                                <td>
+                                    {{ ('table.day.title') | trans({}, 'schedule') }}
+                                </td>
+                                <td>
+                                    {{ ('table.schedule.title') | trans({}, 'schedule') }}
+                                </td>
+                                <td>
+                                    {{ ('table.program.title') | trans({}, 'schedule') }}
+                                </td>
+                            </tr>
                         </thead>
                         <tbody>
-                        {% for i in 1..7 %}
-                        <tr>
-                            <td>
-                                {{ ('table.day.'~i) | trans({}, 'schedule') }}
-                            </td>
-                            <td>
-                                {{ ('table.schedule.'~i) | trans({}, 'schedule') }}
-                            </td>
-                            <td>
-                                {{ ('table.program.'~i) | trans({}, 'schedule') }}
-                            </td>
-                        </tr>
-                        {% endfor %}
+                            {% for i in 1..7 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.day.'~i) | trans({}, 'schedule') }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.schedule.'~i) | trans({}, 'schedule') }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.program.'~i) | trans({}, 'schedule') }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.container -->
-{% endblock %}
-
-{% block javascripts %}
 {% endblock %}

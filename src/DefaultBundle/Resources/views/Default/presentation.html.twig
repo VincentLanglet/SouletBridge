@@ -6,7 +6,6 @@
             <div class="box">
                 <div class="col-lg-12 text-center">
                     <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
                         <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -17,7 +16,6 @@
                             <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                         </ol>
 
-                        <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img class="img-responsive img-full" src="{{ asset('bundles/default/img/carousel-modif.jpg') }}" alt="">
@@ -42,7 +40,6 @@
                             </div>
                         </div>
 
-                        <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <span class="icon-prev"></span>
                         </a>
@@ -54,18 +51,16 @@
             </div>
         </div>
 
-
-
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">
-                        <strong>{{ ('text.titre') | trans({}, 'presentation') | nl2br }}</strong>
+                        <strong>{{ ('hotel.title') | trans({}, 'presentation') | nl2br }}</strong>
                     </h2>
                     <hr>
                     <p>
-                        {{ ('text.hotel') | trans({}, 'presentation') | nl2br }}
+                        {{ ('hotel.text') | trans({}, 'presentation') | nl2br }}
                     </p>
                 </div>
             </div>
@@ -75,7 +70,8 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Merci de contacter directement l'hôtel pour réserver votre chambre.
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('reservation.title') | trans({}, 'presentation') | nl2br }}</strong>
                     </h2>
                     <hr>
                 </div>
@@ -86,15 +82,15 @@
                 </div>
                 <div class="col-md-6">
                     <p>
-                        Phone:
+                        {{ ('reservation.phone') | trans({}, 'presentation') | nl2br }}:
                         <strong>01 47 77 64 64</strong>
                     </p>
                     <p>
-                        Email:
+                        {{ ('reservation.email') | trans({}, 'presentation') | nl2br }}:
                         <strong><a href="mailto:reception@pariscountryclub.com">reception@pariscountryclub.com</a></strong>
                     </p>
                     <p>
-                        Address:
+                        {{ ('reservation.address') | trans({}, 'presentation') | nl2br }}:
                         <strong>121 Rue du Lieutenant-Colonel de Montbrison
                             <br>92500 Rueil-Malmaison</strong>
                     </p>
@@ -103,14 +99,10 @@
             </div>
         </div>
     </div>
-    <!-- /.container -->
 {% endblock %}
 
 {% block javascripts %}
-    <!-- Script to Activate the Carousel -->
     <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        })
+        $('.carousel').carousel({ interval: 5000 })
     </script>
 {% endblock %}

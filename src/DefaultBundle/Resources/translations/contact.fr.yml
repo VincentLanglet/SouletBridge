@@ -1,10 +1,13 @@
 title: Contact
+
 subtitle: Pour nous contacter
 
 name: Philippe Soulet
+
 phone:
     key: Téléphone
     number: 06 19 65 29 53
+
 email:
     key: Courriel
     address: ph.soulet@hotmail.fr

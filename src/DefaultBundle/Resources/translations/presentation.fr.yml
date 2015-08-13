@@ -1,10 +1,9 @@
 title: Hôtel
 
-text:
-    titre: |
+hotel:
+    title: |
         L'hôtel : un petit joyau situé à quelques pas de la ville Lumière.
-
-    hotel: |
+    text: |
         Hotel 4 étoiles avec golf 9 trous aux portes de Paris
 
         Découvrez le Renaissance Paris Hippodrome de St. Cloud Hotel.
@@ -16,3 +15,9 @@ text:
         Conçues selon la philosophie Feng Sui, les 110 chambres et suites de l’hôtel Renaissance Paris Hippodrome de St. Cloud sont à la fois élégantes, confortables et spacieuses, équipées d’une connexion Wifi gratuite.
 
         Certaines chambres disposent d’un balcon bénéficiant d’une vue sur le golf et même sur la Tour Eiffel! Profitez de votre séjour à l’hotel pour venir déguster les délicieux mets de notre restaurant, le « H ».
+
+reservation:
+    title: Merci de contacter directement l'hôtel pour réserver votre chambre.
+    phone: Téléphone
+    email: Courriel
+    address: Adresse

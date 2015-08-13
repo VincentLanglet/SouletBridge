@@ -1,7 +1,9 @@
 title: Contact
+
 subtitle: Contact us
 
 phone:
     key: Phone
+
 email:
     key: Email

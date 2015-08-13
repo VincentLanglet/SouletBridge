@@ -16,28 +16,24 @@
 
                     <table class="prize">
                         <thead>
-                        <tr>
-                            <td>
-                                {{ ('table.tournament.title') | trans({}, 'prizes') }}
-                            </td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {% for i in 1..3 %}
                             <tr>
                                 <td>
-                                    {{ ('table.tournament.'~i) | trans({}, 'prizes') }}
+                                    {{ ('table.tournament.title') | trans({}, 'prizes') }}
                                 </td>
                             </tr>
-                        {% endfor %}
+                        </thead>
+                        <tbody>
+                            {% for i in 1..3 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.tournament.'~i) | trans({}, 'prizes') }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.container -->
-{% endblock %}
-
-{% block javascripts %}
 {% endblock %}
