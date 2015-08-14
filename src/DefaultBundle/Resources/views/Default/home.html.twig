@@ -6,6 +6,7 @@
             <div class="box">
                 <div class="col-lg-12 text-center">
                     <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
                         <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -16,6 +17,7 @@
                             <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                         </ol>
 
+                        <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img class="img-responsive img-full" src="{{ asset('bundles/default/img/carousel-modif.jpg') }}" alt="">
@@ -40,6 +42,7 @@
                             </div>
                         </div>
 
+                        <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <span class="icon-prev"></span>
                         </a>
@@ -50,11 +53,11 @@
 
                     <hr>
                     <h2 class="intro-text text-center">
-                        TODO
+                        {{ ('paragraph.title2') | trans({}, 'home') }}
                     </h2>
                     <hr>
                     <p>
-                        {{ ('paragraph.text') | trans({}, 'home') | nl2br }}
+                        {{ ('paragraph.presentation') | trans({}, 'home') | nl2br }}
                     </p>
                 </div>
             </div>
@@ -65,22 +68,191 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">
-                        TODO
+                        {{ ('paragraph.title2') | trans({}, 'home') }}
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/intro-pic.jpg') }}" alt="">
                     <hr class="visible-xs">
                     <p>
-                        {{ ('paragraph.photo') | trans({}, 'home') }}
+                        {{ ('paragraph.hotel') | trans({}, 'home') }}
                     </p>
                 </div>
             </div>
         </div>
+		
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        {{ ('paragraph.title3') | trans({}, 'home') }}
+                    </h2>
+                    <p>         
+                    <table class="partners">
+                        <tr>
+                            <td><a href="http://www.pariscountryclub.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-pariscountry.png') }}"></td></a>
+                            <td><a href="http://www.marriott.fr/hotels/travel/parsc-renaissance-paris-hippodrome-de-st-cloud-hotel/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-hotelrenaissance.png') }}"></td></a>
+                        </tr>
+					</table>
+                    </p>
+				</div>
+			</div>
+        </div>	
+
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        {{ ('paragraph.title4') | trans({}, 'home') }}
+                    </h2>
+                    <p>         
+                    <table class="partners">
+                        <tr>
+                            <td><a href="http://www.vignelaure.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-vignelaure.png') }}"></td></a>
+                            <td><a href="http://www.vinoptimo.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-vinoptimo.png') }}"></td></a>
+							<td><a href="http://www.funbridge.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-funbridge.png') }}"></td></a>
+							<td><a href="http://www.lebridgeur.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-lebridgeur.png') }}"></td></a>
+                        </tr>
+					</table>
+                    </p>
+				</div>
+			</div>
+        </div>		
+
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        {{ 'paragraph.title5' | trans({}, 'home') }}
+                    </h2>
+                    <hr>
+                </div>
+				<table class="partners">
+				<tr>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Philippe Soulet</strong>
+                    </p>                 
+                </div>
+				</td>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Claude Katan</strong>
+                    </p>                 
+                </div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Xavier Schurer</strong>
+                    </p>                 
+                </div>
+				</td>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Sébastien Rotkoff</strong>
+                    </p>                 
+                </div>
+				</td>
+				</tr>
+				<tr>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Benoit Deveze</strong>
+                    </p>                 
+                </div>
+				</td>
+				<td>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/soulet.jpg') }}" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <strong>Epsilon</strong>
+                    </p>                 
+                </div>
+				</td>
+				</tr>
+				</table>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+		
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        {{ ('paragraph.title6') | trans({}, 'home') }}
+                    </h2>
+                    <p>  
+						{{ ('paragraph.links') | trans({}, 'home') }}
+						<br><br>
+						<table class="partners">
+                        <tr>
+                            <td><a href="http://www.comitedeparis.fr/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-comiteparis.png') }}"></td></a>
+                            <td><a href="http://www.ffbridge.asso.fr/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-ffb.png') }}"></td></a>
+							<td><a href="http://www.worldbridge.org/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-WBF.png') }}"></td></a>
+                        </tr>
+						</table>
+                    </p>
+					 <p>  
+						<strong> {{ ('paragraph.continue') | trans({}, 'home') }} </strong>
+						<br><br>
+						<table class="partners">
+                        <tr>
+                            <td><a href="http://www.parisinfo.com/">
+							<IMG SRC="{{ asset('bundles/default/img/logo-otparis.png') }}"></td></a>
+                            <td><a href="http://francebridge.free.fr/index.php?option=com_content&view=frontpage">
+							<IMG SRC="{{ asset('bundles/default/img/logo-fb.png') }}"></td></a>
+                        </tr>
+						</table>
+					</p>
+				</div>
+			</div>
+        </div>
+		
     </div>
+    <!-- /.container -->
 {% endblock %}
 
 {% block javascripts %}
+    <!-- Script to Activate the Carousel -->
     <script>
-        $('.carousel').carousel({ interval: 5000 })
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
     </script>
 {% endblock %}
