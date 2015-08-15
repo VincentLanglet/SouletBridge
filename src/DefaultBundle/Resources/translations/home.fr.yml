@@ -1,16 +1,8 @@
 title: Accueil
 
-paragraph:
-    hotel: |
-        Situé à une dizaine de minutes du centre de Paris, le Paris Country Club nous ouvre les portes de son nouvel hôtel et de ses salles de réception prestigieuses.
-
-        Vous jouerez dans un bâtiment classé du début du 20ème siècle, entouré de 55 hectares de verdure.
-
-        A quelques mètres se trouve l'hôtel Renaissance Paris Hippodrome de Saint Cloud, un établissement 4 étoiles flambant neuf de 110 chambres et suites ou vous pourrez résider durant toute la durée du festival à un tarif privilège.
-
-        Les résidents de l'hôtel auront accès à la salle de sport et pourront profiter du golf à un tarif attractif.
-
-    presentation: |
+presentation:
+    title: Titre à ajouter.
+    text: |
         Nous avons le plaisir de vous accueillir dans le superbe cadre du Paris Country Club pour un festival de bridge sur une semaine du 5 au 11 Novembre 2015.
 
         En prélude au festival international de Paris se tiendra  les 5 et 6 Novembre un championnat de Paris en partenariat avec Funbridge consacré aux joueurs de 4ème, 3ème et 2ème séries.
@@ -20,27 +12,28 @@ paragraph:
         Parallèlement auront lieu des tournois avec livrets commentés par Philippe Soulet réservés aux joueurs de 4ème et 3ème séries ne souhaitant pas participer aux tournois principaux.
 
         Tous les jours, nous vous inviterons à un cocktail suivi d'un dîner optionnel avec animation musicale ou débat avec les champions.
-		
-    title1: |
-        Titre à ajouter.
 
-    title2: |
-        Titre à ajouter.
-		
-    title3: |
-        L'hôte du festival.
+hotel:
+    title: Titre à ajouter.
+    text: |
+        Situé à une dizaine de minutes du centre de Paris, le Paris Country Club nous ouvre les portes de son nouvel hôtel et de ses salles de réception prestigieuses.
 
-    title4: |
-        Les partenaires du festival.
+        Vous jouerez dans un bâtiment classé du début du 20ème siècle, entouré de 55 hectares de verdure.
 
-    title5: |
-        L'Equipe.
+        A quelques mètres se trouve l'hôtel Renaissance Paris Hippodrome de Saint Cloud, un établissement 4 étoiles flambant neuf de 110 chambres et suites ou vous pourrez résider durant toute la durée du festival à un tarif privilège.
 
-    title6: |
-        Autres liens utiles.
+        Les résidents de l'hôtel auront accès à la salle de sport et pourront profiter du golf à un tarif attractif.
 
-    links: |
-        Cet événement a lieu sous l'égide du Comité de Paris de la Fédération Française de Bridge et sous la présidence de J. Damiani (président de la WBF) et P. Grenthe (président de la FFB).
+host:
+    title: L'hôte du festival
 
-    continue: |
-        Si vous souhaitez prolonger votre séjour à Paris ...
+partners:
+    title: Les partenaires du festival
+
+team:
+    title: L'Equipe
+
+links:
+    title: Autres liens utiles
+    text: Cet événement a lieu sous l'égide du Comité de Paris de la Fédération Française de Bridge et sous la présidence de J. Damiani (président de la WBF) et P. Grenthe (président de la FFB).
+    continue: Si vous souhaitez prolonger votre séjour à Paris ...
