@@ -37,28 +37,76 @@ presentation:
 table:
     day:
         title: JOUR
-        "1": Jeudi 5/11
-        "2": Vendredi 6/11
-        "3": Samedi 7/11
-        "4": Dimanche 8/11
-        "5": Lundi 9/11
-        "6": Mardi 10/11
-        "7": Mercredi 11/11
+        "1": Jeudi 5 Novembre
+        "2": Vendredi 6 Novembre
+        "3": Samedi 7 Novembre
+        "4": Dimanche 8 Novembre
+        "5": Lundi 9 Novembre
+        "6": Mardi 10 Novembre
+        "7": Mercredi 11 Novembre
     schedule:
         title: HORAIRE
-        "1": 0
-        "2": 0
-        "3": 0
-        "4": 0
-        "5": 0
-        "6": 0
-        "7": 0
+        "1":
+            tournament: 15h
+            cocktail: 19h
+            diner: 20h30
+        "2":
+            tournament: 15h
+            cocktail: 19h
+            diner: 20h30
+        "3":
+            tournament: 15h30
+            cocktail: 19h30
+            diner: 20h30
+        "4":
+            tournament: 15h30
+            cocktail: 19h30
+            diner: 20h30
+        "5":
+            tournament: 15h30
+            cocktail: 19h30
+            diner: 20h30
+        "6":
+            tournament: 15h30
+            cocktail: 19h30
+            diner: 20h
+        "7":
+            tournament: 15h30
+            cocktail: 19h30
+            diner: 20h30
     program:
         title: PROGRAMME
-        "1": 0
-        "2": 0
-        "3": 0
-        "4": 0
-        "5": 0
-        "6": 0
-        "7": 0
+        "1":
+            tournament: Championnat de Paris 1<sup>ère</sup> séance
+            cocktail: Apéritif débat sur les donnes
+            diner: Dîner (optionnel* pour les non-résidents)
+        "2":
+            tournament: Championnat de Paris 2<sup>ème</sup> séance
+            cocktail: Cocktail-Remise des prix
+            diner: Dîner (optionnel* pour les non-résidents)
+        "3":
+            tournament: Mixte ou Dames par paire 1<sup>ère</sup> séance
+            cocktail: Apéritif débat sur les donnes
+            diner: Dîner (optionnel* pour les non-résidents)
+        "4":
+            tournament: Mixte ou Dames par paire 2<sup>ème</sup> séance
+            cocktail: Cocktail-Remise des prix
+            diner: Dîner (optionnel* pour les non-résidents)
+        "5":
+            tournament: Tournoi IMP’s par paire
+            cocktail: Cocktail-Remise des prix
+            diner: Dîner dansant (optionnel* pour les non-résidents)
+        "6":
+            tournament: Tournoi open par paire 1<sup>ère</sup> séance
+            cocktail: Apéritif débat sur les donnes
+            diner: Dîner de gala** (optionnel* pour les non-résidents)
+        "7":
+            tournament: Tournoi open par paire 2<sup>ème</sup> séance
+            cocktail: Cocktail-Remise des prix
+            diner: Dîner (optionnel* pour les non-résidents)
+
+option:
+    diner: |
+        * Dîner optionnel tous les soirs avec animation musicale ou débat avec les champions: inclus dans le forfait hôtelier, 35€ pour les non-résidents, sur réservation
+    gala: |
+        ** Dîner de gala du mardi 10 Novembre: inclus dans le forfait hôtelier, 50€ pour les non-résidents, sur réservation

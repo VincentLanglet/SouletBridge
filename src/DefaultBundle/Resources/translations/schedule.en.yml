@@ -31,3 +31,78 @@ presentation :
         Tournament dedicated to novice and intermediate players: 30€ for the two sessions per player.
 
         Juniors’(less than 25 years old) entry fees : half of normal entry fees. The sum of all Juniors’ entry fees will be redistributed for each tournament to the first Juniors pair.
+
+table:
+    day:
+        title: DAY
+        "1": Thursday November 5<sup>th</sup>
+        "2": Friday November 6<sup>th</sup>
+        "3": Saturday Nobvember 7<sup>th>/sup>
+        "4": Sunday November 8<sup>th>/sup>
+        "5": Monday November 9<sup>th</sup>
+        "6": Tuesday November 10<sup>th</sup>
+        "7": Wednesday November 11<sup>th</sup>
+    schedule:
+        title: TIME
+        "1":
+            tournament: 3pm
+            cocktail: 7pm
+            diner: 8.30pm
+        "2":
+            tournament: 3pm
+            cocktail: 7pm
+            diner: 8.30pm
+        "3":
+            tournament: 3.30pm
+            cocktail: 7.30pm
+            diner: 8.30pm
+        "4":
+            tournament: 3.30pm
+            cocktail: 7.30pm
+            diner: 8.30pm
+        "5":
+            tournament: 3.30pm
+            cocktail: 7.30pm
+            diner: 8.30pm
+        "6":
+            tournament: 3.30pm
+            cocktail: 7.30pm
+            diner: 8pm
+        "7":
+            tournament: 3.30pm
+            cocktail: 7.30pm
+            diner: 8.30pm
+    program:
+        title: PROGRAM
+        "1":
+            tournament: Championship of Paris 1<sup>st</sup> session
+            cocktail: Short drink and debate on the daily boards
+            diner: Dinner (in option* for non-hotel guests)
+        "2":
+            tournament: Championship of Paris 2<sup>nd</sup> session
+            cocktail: Cocktail party and prize-giving ceremony
+            diner: Dinner (in option* for non-hotel guests)
+        "3":
+            tournament: Mixed or Ladies pair tournament 1<sup>st</sup> session
+            cocktail: Short drink and debate on the daily boards
+            diner: Dinner (in option* for non-hotel guests)
+        "4":
+            tournament: Mixed or Ladies pair tournament 2<sup>nd</sup> session
+            cocktail: Cocktail party and prize-giving ceremony
+            diner: Dinner (in option* for non-hotel guests)
+        "5":
+            tournament: IMPs pair tournament
+            cocktail: Cocktail party and prize-giving ceremony
+            diner: Dinner (in option* for non-hotel guests)
+        "6":
+            tournament: Open pair tournament 1<sup>st</sup> session
+            cocktail: Cocktail party and prize-giving ceremony
+            diner: Gala dinner (in option** for non-hotel guests)
+        "7":
+            tournament: Open pair tournament 2<sup>nd</sup> session
+            cocktail: Cocktail party and prize-giving ceremony
+            diner: Dinner (in option* for non-hotel guests)
+
+option:
+    diner: * Dinner (wines and coffee included) with music entertainment or a debate with the champions included for hotel guets (35€ for non-hotel guests upon reservation).
+    gala: ** Gala dinner on Monday 10<sup>th</sup> November included for hotel guests (50€ for non-hotel guests upon reservation).

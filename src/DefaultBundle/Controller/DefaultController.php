@@ -11,23 +11,12 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("", name="homepage")
      * @Template
      *
      * @return array
      */
     public function homeAction()
-    {
-        return array();
-    }
-
-    /**
-     * @Route("/presentation", name="presentation")
-     * @Template
-     *
-     * @return array
-     */
-    public function presentationAction()
     {
         return array();
     }
@@ -39,6 +28,17 @@ class DefaultController extends Controller
      * @return array
      */
     public function scheduleAction()
+    {
+        return array();
+    }
+
+    /**
+     * @Route("/hotel", name="presentation")
+     * @Template
+     *
+     * @return array
+     */
+    public function presentationAction()
     {
         return array();
     }
