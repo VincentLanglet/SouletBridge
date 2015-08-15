@@ -14,7 +14,7 @@ hotel:
         All the hotel guests will appreciate complementary internet access, on-site fitness center and a restaurant, serving traditional French home-made cuisine.
 
 reservation:
-    title: Titre à ajouter.
+    title: Titre à ajouter
     phone: Phone
     email: Email
     address: Address

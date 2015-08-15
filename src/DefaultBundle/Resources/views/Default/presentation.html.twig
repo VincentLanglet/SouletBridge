@@ -82,17 +82,15 @@
                 </div>
                 <div class="col-md-6">
                     <p>
-                        {{ ('reservation.phone') | trans({}, 'presentation') | nl2br }}:
-                        <strong>01 47 77 64 64</strong>
+                        <strong>{{ ('reservation.phone') | trans({}, 'presentation') | nl2br }}:</strong> 01 47 77 64 64
                     </p>
                     <p>
-                        {{ ('reservation.email') | trans({}, 'presentation') | nl2br }}:
-                        <strong><a href="mailto:reception@pariscountryclub.com">reception@pariscountryclub.com</a></strong>
+                        <strong>{{ ('reservation.email') | trans({}, 'presentation') | nl2br }}:</strong>
+                        <a href="mailto:reception@pariscountryclub.com">reception@pariscountryclub.com</a>
                     </p>
                     <p>
-                        {{ ('reservation.address') | trans({}, 'presentation') | nl2br }}:
-                        <strong>121 Rue du Lieutenant-Colonel de Montbrison
-                            <br>92500 Rueil-Malmaison</strong>
+                        <strong>{{ ('reservation.address') | trans({}, 'presentation') | nl2br }}:</strong>
+                        121 Rue du Lieutenant-Colonel de Montbrison (92500 Rueil-Malmaison)
                     </p>
                 </div>
                 <div class="clearfix"></div>
