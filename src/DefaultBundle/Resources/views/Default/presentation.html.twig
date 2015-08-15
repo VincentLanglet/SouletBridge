@@ -74,6 +74,10 @@
                         <strong>{{ ('reservation.title') | trans({}, 'presentation') | nl2br }}</strong>
                     </h2>
                     <hr>
+                    <p>
+                        {{ ('reservation.text') | trans({}, 'presentation') | nl2br }}
+                    </p>
+                    <br>
                 </div>
                 <div class="col-md-6">
                     <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
@@ -82,14 +86,14 @@
                 </div>
                 <div class="col-md-6">
                     <p>
-                        <strong>{{ ('reservation.phone') | trans({}, 'presentation') | nl2br }}:</strong> 01 47 77 64 64
+                        <strong>{{ ('phone') | trans({}, 'main') | nl2br }}:</strong> 01 47 77 64 64
                     </p>
                     <p>
-                        <strong>{{ ('reservation.email') | trans({}, 'presentation') | nl2br }}:</strong>
+                        <strong>{{ ('email') | trans({}, 'main') | nl2br }}:</strong>
                         <a href="mailto:reception@pariscountryclub.com">reception@pariscountryclub.com</a>
                     </p>
                     <p>
-                        <strong>{{ ('reservation.address') | trans({}, 'presentation') | nl2br }}:</strong>
+                        <strong>{{ ('address') | trans({}, 'main') | nl2br }}:</strong>
                         121 Rue du Lieutenant-Colonel de Montbrison (92500 Rueil-Malmaison)
                     </p>
                 </div>

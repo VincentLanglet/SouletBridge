@@ -1,20 +1,21 @@
 title: Hotel
 
 hotel:
-    title: Titre à ajouter.
+    title: Titre à ajouter
     text: |
         Surrounded by lush green and tranquil countryside and just 15 minutes by car from downtown Paris, the hotel presents an ideal escape from city life.
 
         Unwind with a swim in our outdoor heated pool and enjoy one of the bar’s cocktail creations.
-
         The hotel offers a lot of activities such as playstations, bike rentals and a nine hole golf course facing the Saint-Cloud horse racing track.
 
         Organize an exciting last-minute trip to Paris, and reserve our Bluecars from the front desk to explore the city. You will be in almost all Paris popular sites in less than 15 minutes.
 
-        All the hotel guests will appreciate complementary internet access, on-site fitness center and a restaurant, serving traditional French home-made cuisine.
+        All the hotel guests will appreciate complementary internet access, on-site fitness center.
+        Every evening, hotel guests will enjoy a dinner with musical entertainment or a bridge debate with champions at the hotel’s restaurant, serving traditional French home-made cuisine.
 
 reservation:
     title: Titre à ajouter
-    phone: Phone
-    email: Email
-    address: Address
+    text: |
+        Special rates from 5th to 11th November 2015:
+        Single room with dinner (drinks included) and breakfast (Buffet): 160€ per night VAT included
+        Double room with dinner (drinks included) and breakfast (Buffet): 185€ per night VAT included

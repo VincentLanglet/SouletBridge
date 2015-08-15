@@ -19,16 +19,13 @@
                         <strong>{{ 'name' | trans({}, 'contact') }}</strong>
                     </p>
                     <p>
-                        {{ 'phone.key' | trans({}, 'contact') }}:
-                        <strong>{{ 'phone.number' | trans({}, 'contact') }}</strong>
+                        <strong>{{ 'phone' | trans({}, 'main') }}:</strong> 06 19 65 29 53
                     </p>
                     <p>
-                        {{ 'email.key' | trans({}, 'contact') }}:
-                        <strong>
-                            <a href="mailto:{{ 'email.address' | trans({}, 'contact') }}">
-                                {{ 'email.address' | trans({}, 'contact') }}
-                            </a>
-                        </strong>
+                        <strong>{{ 'email' | trans({}, 'main') }}:</strong>
+                        <a href="mailto:{{ 'email.address' | trans({}, 'contact') }}">
+                            {{ 'email.address' | trans({}, 'contact') }}
+                        </a>
                     </p>
                 </div>
                 <div class="clearfix"></div>

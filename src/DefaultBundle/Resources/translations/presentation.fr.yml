@@ -1,21 +1,28 @@
 title: Hôtel
 
 hotel:
-    title: Un petit joyau situé à quelques pas de la ville Lumière.
+    title: Un petit joyau situé à quelques pas de la ville Lumière
     text: |
-        Hotel 4 étoiles avec golf 9 trous aux portes de Paris
-        Découvrez le Renaissance Paris Hippodrome de St. Cloud Hotel.
+        Découvrez le Renaissance Paris Hippodrome de St. Cloud, hôtel 4 étoiles avec golf 9 trous aux portes de Paris
 
         Situé à Rueil-Malmaison, cet établissement allie le calme d’une localisation aux portes de Paris à la proximité de la capitale: le choix idéal si vous vous déplacez en voiture puisque notre hôtel 4 étoiles propose un parking gratuit ainsi que 4 Bluecars (voitures électriques) pour découvrir Paris et ses environs.
 
         Implanté à côté de l’hippodrome de Saint Cloud, cet hôtel de luxe offre de nombreuses activités pour vous détendre: golf de 9 trous, vélos en location, consoles de jeux, piscine extérieure chauffée et centre de remise en forme.
 
-        Conçues selon la philosophie Feng Sui, les 110 chambres et suites de l’hôtel Renaissance Paris Hippodrome de St. Cloud sont à la fois élégantes, confortables et spacieuses, équipées d’une connexion Wifi gratuite.
+        Conçues selon la philosophie Feng Sui, les 110 chambres et suites de l’hôtel sont à la fois élégantes, confortables et spacieuses, équipées d’une connexion Wifi gratuite.
 
-        Certaines chambres disposent d’un balcon bénéficiant d’une vue sur le golf et même sur la Tour Eiffel! Profitez de votre séjour à l’hotel pour venir déguster les délicieux mets de notre restaurant, le « H ».
+        Certaines chambres disposent d’un balcon bénéficiant d’une vue sur le golf et même sur la Tour Eiffel!
+
+        Tous les soirs, les résidents de l’hôtel pourront déguster les délicieux mets du restaurant, le « H » en profitant de l’animation musicale ou d’un débat bridge avec les champions.
+
+        Les résidents de l'hôtel auront accès à la salle de sport et pourront profiter du golf à un tarif attractif.
 
 reservation:
-    title: Merci de contacter directement l'hôtel pour réserver votre chambre.
-    phone: Téléphone
-    email: Courriel
-    address: Adresse
+    title: Merci de contacter l'hôtel pour réserver votre chambre
+    text: |
+        Tarif privilège du 5 au 11 novembre 2015
+        160€ la nuit en single
+        185€ la nuit en chambre double
+
+        Ce tarif comprend le petit-déjeuner Buffet et le Dîner (boissons comprises)
+        Dîner de clôture du Mardi 10 compris pour les résidents à l’hôtel (50€ pour les non-résidents)
