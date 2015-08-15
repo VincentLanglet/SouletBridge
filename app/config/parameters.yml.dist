@@ -18,6 +18,6 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret:            ChooseYourSecret
 
-    # Admin (The password 'admin' is encode with sha1)
+    # Admin
     admin.login: admin
-    admin.password: d033e22ae348aeb5660fc2140aec35850c4da997
+    admin.password: admin

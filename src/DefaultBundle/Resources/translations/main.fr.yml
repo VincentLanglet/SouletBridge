@@ -6,6 +6,13 @@ title:
         1<sup>er</sup> Festival International de Bridge
         du Paris Country Club
 
+download:
+    path: bundles/default/download/brochure_festival_fr.pdf
+    file: Brochure du festival
+    text: Télécharger la brochure du festival
+
 phone: Téléphone
 email: Courriel
 address: Adresse
+
+backToTop: Haut de page
