@@ -1,23 +1,23 @@
 title: Accueil
 
 presentation:
-    title: Titre à ajouter
+    title: Une festival unique à Paris
     text: |
         Nous avons le plaisir de vous accueillir dans le superbe cadre du Paris Country Club pour un festival de bridge sur une semaine du 5 au 11 Novembre 2015.
 
-        En prélude au festival international de Paris se tiendra les 5 et 6 Novembre un championnat de Paris en partenariat avec Funbridge consacré aux joueurs de 4ème, 3ème et 2ème séries.
+        En prélude au festival international de Paris se tiendra les 5 et 6 Novembre un championnat de Paris en partenariat avec Funbridge consacré aux joueurs de 4<sup>ème</sup>, 3<sup>ème</sup> et 2<sup>ème</sup> séries.
 
         A partir du 7 Novembre, nous vous proposons des tournois Mixte, IMP's et Open richement dotés.
-        Parallèlement auront lieu des tournois avec livrets commentés par Philippe Soulet réservés aux joueurs de 4ème et 3ème séries ne souhaitant pas participer aux tournois principaux.
+        Parallèlement auront lieu des tournois avec livrets commentés par Philippe Soulet réservés aux joueurs de 4<sup>ème</sup> et 3<sup>ème</sup> séries ne souhaitant pas participer aux tournois principaux.
 
         Tous les jours, nous vous inviterons à un cocktail suivi d'un dîner optionnel avec animation musicale ou débat avec les champions.
 
 hotel:
-    title: Titre à ajouter
+    title: Jouez dans un bâtiment classé entouré de verdure
     text: |
         Situé à une dizaine de minutes du centre de Paris, le Paris Country Club nous ouvre les portes de son nouvel hôtel et de ses salles de réception prestigieuses.
 
-        Vous jouerez dans un bâtiment classé du début du 20ème siècle, entouré de 55 hectares de verdure.
+        Vous jouerez dans un bâtiment classé du début du 20<sup>ème</sup> siècle, entouré de 55 hectares de verdure.
 
         A quelques mètres se trouve l'hôtel Renaissance Paris Hippodrome de Saint Cloud, un établissement 4 étoiles flambant neuf de 110 chambres et suites ou vous pourrez résider durant toute la durée du festival à un tarif privilège.
 
@@ -34,5 +34,5 @@ team:
 
 links:
     title: Autres liens utiles
-    text: Cet événement a lieu sous l'égide du Comité de Paris de la Fédération Française de Bridge et sous la présidence de J. Damiani (président de la WBF) et P. Grenthe (président de la FFB).
+    text: Cet événement a lieu sous l'égide du Comité de Paris, de la Fédération Française de Bridge et sous la présidence de J. Damiani (président de la WBF) et P. Grenthe (président de la FFB).
     continue: Si vous souhaitez prolonger votre séjour à Paris ...

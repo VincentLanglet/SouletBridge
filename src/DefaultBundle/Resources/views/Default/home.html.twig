@@ -54,7 +54,7 @@
                     </h2>
                     <hr>
                     <p>
-                        {{ ('presentation.text') | trans({}, 'home') | nl2br }}
+                        {{ ('presentation.text') | trans({}, 'home') | raw | nl2br }}
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/intro-pic.jpg') }}">
                     <hr class="visible-xs">
                     <p>
-                        {{ ('hotel.text') | trans({}, 'home') }}
+                        {{ ('hotel.text') | trans({}, 'home') | raw }}
                     </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-xs-6">
                         <a href="http://www.marriott.fr/hotels/travel/parsc-renaissance-paris-hippodrome-de-st-cloud-hotel/" target="_blank">
-                            <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-hotelrenaissance.png') }}">
+                            <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-hotelrenaissance.png') }}">
                         </a>
                     </div>
                     <div class="clearfix"></div>
@@ -112,22 +112,22 @@
                         <tr>
                             <td>
                                 <a href="http://www.vignelaure.com/" target="_blank">
-							        <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-vignelaure.png') }}">
+							        <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-vignelaure.png') }}">
                                 </a>
                             </td>
                             <td>
                                 <a href="http://www.vinoptimo.com/" target="_blank">
-							        <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-vinoptimo.png') }}">
+							        <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-vinoptimo.png') }}">
                                 </a>
                             </td>
 							<td>
                                 <a href="http://www.funbridge.com/" target="_blank">
-							        <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-funbridge.png') }}">
+							        <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-funbridge.png') }}">
                                 </a>
                             </td>
 							<td>
                                 <a href="http://www.lebridgeur.com/" target="_blank">
-							        <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-lebridgeur.png') }}">
+							        <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-lebridgeur.png') }}">
                                 </a>
                             </td>
                         </tr>
@@ -233,17 +233,17 @@
                         <tr>
                             <td>
                                 <a href="http://www.comitedeparis.fr/">
-                                    <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-comiteparis.png') }}">
+                                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-comiteparis.png') }}">
                                 </a>
                             </td>
                             <td>
                                 <a href="http://www.ffbridge.asso.fr/">
-                                    <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-ffb.png') }}">
+                                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-ffb.png') }}">
                                 </a>
                             </td>
                             <td>
                                 <a href="http://www.worldbridge.org/">
-                                    <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-WBF.png') }}">
+                                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-WBF.png') }}">
                                 </a>
                             </td>
                         </tr>
@@ -257,12 +257,12 @@
                         <tr>
                             <td>
                                 <a href="http://www.parisinfo.com/" target="_blank">
-                                    <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-otparis.png') }}">
+                                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-otparis.png') }}">
                                 </a>
                             </td>
                             <td>
                                 <a href="http://francebridge.free.fr/index.php?option=com_content&view=frontpage" target="_blank">
-                                    <img class="img-responsive img-center" src="{{ asset('bundles/default/img/logo-fb.png') }}">
+                                    <img class="img-responsive img-border img-center" src="{{ asset('bundles/default/img/logo-fb.png') }}">
                                 </a>
                             </td>
                         </tr>

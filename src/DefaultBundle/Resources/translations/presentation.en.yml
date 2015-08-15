@@ -1,7 +1,7 @@
 title: Hotel
 
 hotel:
-    title: Titre à ajouter
+    title: A small jewel just a few steps from the city of light
     text: |
         Surrounded by lush green and tranquil countryside and just 15 minutes by car from downtown Paris, the hotel presents an ideal escape from city life.
 
@@ -11,11 +11,18 @@ hotel:
         Organize an exciting last-minute trip to Paris, and reserve our Bluecars from the front desk to explore the city. You will be in almost all Paris popular sites in less than 15 minutes.
 
         All the hotel guests will appreciate complementary internet access, on-site fitness center.
-        Every evening, hotel guests will enjoy a dinner with musical entertainment or a bridge debate with champions at the hotel’s restaurant, serving traditional French home-made cuisine.
+        Every evening, hotel guests will enjoy a dinner with musical entertainment or a bridge debate with champions at the hotel’s restaurant, serving traditional french home-made cuisine.
 
 reservation:
     title: Titre à ajouter
     text: |
-        Special rates from 5th to 11th November 2015:
-        Single room with dinner (drinks included) and breakfast (Buffet): 160€ per night VAT included
-        Double room with dinner (drinks included) and breakfast (Buffet): 185€ per night VAT included
+        Special rates from 5<sup>th</sup> to 11<sup>th</sup> November 2015:
+        Single room with dinner (drinks included) and breakfast (buffet): 160€ per night VAT included
+        Double room with dinner (drinks included) and breakfast (buffet): 185€ per night VAT included
+
+        Bridge courses included (mainly in french but questions in english welcome) with Philippe Soulet (world champion) on:
+
+        Thursday evening : debate on the daily best hands and conference on the competitive hands.
+        Friday morning at 10.30 am: Competitive play.
+        Friday evening after dinner: Special course on slam.
+        Saturday morning at 10.30 am: Competitive play.

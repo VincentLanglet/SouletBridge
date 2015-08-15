@@ -60,7 +60,7 @@
                     </h2>
                     <hr>
                     <p>
-                        {{ ('hotel.text') | trans({}, 'presentation') | nl2br }}
+                        {{ ('hotel.text') | trans({}, 'presentation') | raw | nl2br }}
                     </p>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     </h2>
                     <hr>
                     <p>
-                        {{ ('reservation.text') | trans({}, 'presentation') | nl2br }}
+                        {{ ('reservation.text') | trans({}, 'presentation') | raw | nl2br }}
                     </p>
                     <br>
                 </div>

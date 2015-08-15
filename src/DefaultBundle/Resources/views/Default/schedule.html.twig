@@ -11,7 +11,7 @@
                     </h2>
                     <hr>
                     <p>
-                        {{ ('presentation.text') | trans({}, 'schedule') | nl2br }}
+                        {{ ('presentation.text') | trans({}, 'schedule') | raw | nl2br }}
                     </p>
                     <table class="schedule">
                         <thead>
