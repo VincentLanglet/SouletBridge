@@ -6,6 +6,10 @@ title:
         1<sup>st</sup> International Bridge Festival
         of the Paris Country Club
 
+locale:
+    language: fr
+    image: bundles/default/img/flag-fr.png
+
 download:
     path: bundles/default/download/brochure_festival_en.pdf
     file: Festival brochure

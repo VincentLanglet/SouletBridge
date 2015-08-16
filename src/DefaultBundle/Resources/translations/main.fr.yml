@@ -6,6 +6,10 @@ title:
         1<sup>er</sup> Festival International de Bridge
         du Paris Country Club
 
+locale:
+    language: en
+    image: bundles/default/img/flag-en.png
+
 download:
     path: bundles/default/download/brochure_festival_fr.pdf
     file: Brochure du festival

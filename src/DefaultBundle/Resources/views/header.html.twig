@@ -4,11 +4,8 @@
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
-        <a class="locale" href="{{ path('switch_locale', {"locale": "fr"}) }}">
-            <img src="{{ asset('bundles/default/img/flag-fr.png') }}">
-        </a>
-        <a class="locale" href="{{ path('switch_locale', {"locale": "en"}) }}">
-            <img src="{{ asset('bundles/default/img/flag-en.png') }}">
+        <a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">
+            <img src="{{ asset('locale.image' | trans({}, 'main')) }}">
         </a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="icon-bar"></span>
@@ -26,10 +23,13 @@
                 <a class="link" href="{{ path('homepage') }}">{{ 'title' | trans({}, 'home') }}</a>
             </li>
             <li>
+                <a class="link" href="{{ path('presentation') }}">{{ 'title' | trans({}, 'presentation') }}</a>
+            </li>
+            <li>
                 <a class="link" href="{{ path('schedule') }}">{{ 'title' | trans({}, 'schedule') }}</a>
             </li>
             <li>
-                <a class="link" href="{{ path('presentation') }}">{{ 'title' | trans({}, 'presentation') }}</a>
+                <a class="link" href="{{ path('registration') }}">{{ 'title' | trans({}, 'registration') }}</a>
             </li>
             <li>
                 <a class="link" href="{{ path('prizes') }}">{{ 'title' | trans({}, 'prizes') }}</a>
@@ -40,14 +40,12 @@
             <li>
                 <a class="link" href="{{ path('contact') }}">{{ 'title' | trans({}, 'contact') }}</a>
             </li>
-            <li class="locale">
-                <a class="locale" href="{{ path('switch_locale', {"locale": "fr"}) }}">
-                    <img src="{{ asset('bundles/default/img/flag-fr.png') }}">
-                </a>
+            <li>
+                <a class="link" href="{{ path('map') }}">{{ 'title' | trans({}, 'map') }}</a>
             </li>
             <li class="locale">
-                <a class="locale" href="{{ path('switch_locale', {"locale": "en"}) }}">
-                    <img src="{{ asset('bundles/default/img/flag-en.png') }}">
+                <a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">
+                    <img src="{{ asset('locale.image' | trans({}, 'main')) }}">
                 </a>
             </li>
         </ul>
