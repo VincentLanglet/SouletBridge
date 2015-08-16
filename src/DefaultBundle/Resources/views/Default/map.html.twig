@@ -5,22 +5,34 @@
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <a href="http://www.worldbridge.org/">
-                        <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/logo-WBF.png') }}" alt="World Bridge Federation">
-                    </a>
-                    <p>
-                        {{ ('text.WBF') | trans({}, 'partners')|nl2br }}
-                    <p>
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ 'subtitle' | trans({}, 'map') }}</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-md-6">
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41999.16209891293!2d2.194828!3d48.85920899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e664acc4386a03%3A0x3f68972660b61dee!2sRenaissance+Paris+Hippodrome+de+St.+Cloud+Hotel!5e0!3m2!1sfr!2sfr!4v1439675181338">
+                        </iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <strong>{{ ('phone') | trans({}, 'main') | nl2br }}:</strong> 01 47 77 64 64
+                        </p>
+                        <p>
+                            <strong>{{ ('email') | trans({}, 'main') | nl2br }}:</strong>
+                            <a href="mailto: {{ 'email' | trans({}, 'presentation') }}">
+                                {{ 'email' | trans({}, 'presentation') }}
+                            </a>
+                        </p>
+                        <p>
+                            <strong>{{ ('address') | trans({}, 'main') | nl2br }}:</strong>
+                            123 Rue du Lieutenant-Colonel de Montbrison (92500 Rueil-Malmaison)
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="col-lg-12">
-                    <a href="http://www.comitedeparis.fr/">
-                        <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/logo-comiteparis.png') }}" alt="Comite de Paris">
-                    </a>
-                    <p>
-                        {{ ('text.comite') | trans({}, 'partners')|nl2br }}
-                    <p>
-                </div>
-             </div>
+            </div>
         </div>
     </div>
 {% endblock %}

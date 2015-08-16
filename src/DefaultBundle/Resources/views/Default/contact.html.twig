@@ -10,25 +10,25 @@
                         <strong>{{ 'subtitle' | trans({}, 'contact') }}</strong>
                     </h2>
                     <hr>
+                    <div class="col-sm-6">
+                        <img class="img-responsive img-border" src="{{ asset('bundles/default/img/philippe-soulet.jpg') }}">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            <strong>Philippe Soulet</strong>
+                        </p>
+                        <p>
+                            <strong>{{ 'phone' | trans({}, 'main') }}:</strong> 06 19 65 29 53
+                        </p>
+                        <p>
+                            <strong>{{ 'email' | trans({}, 'main') }}:</strong>
+                            <a href="mailto:{{ 'email' | trans({}, 'contact') }}">
+                                {{ 'email' | trans({}, 'contact') }}
+                            </a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border" src="{{ asset('bundles/default/img/philippe-soulet.jpg') }}">
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        <strong>Philippe Soulet</strong>
-                    </p>
-                    <p>
-                        <strong>{{ 'phone' | trans({}, 'main') }}:</strong> 06 19 65 29 53
-                    </p>
-                    <p>
-                        <strong>{{ 'email' | trans({}, 'main') }}:</strong>
-                        <a href="mailto:{{ 'email' | trans({}, 'contact') }}">
-                            {{ 'email' | trans({}, 'contact') }}
-                        </a>
-                    </p>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>

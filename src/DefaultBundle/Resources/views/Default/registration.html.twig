@@ -5,20 +5,15 @@
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <a href="http://www.worldbridge.org/">
-                        <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/logo-WBF.png') }}" alt="World Bridge Federation">
-                    </a>
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('subtitle') | trans({}, 'registration') }}</strong>
+                    </h2>
+                    <hr>
                     <p>
-                        {{ ('text.WBF') | trans({}, 'partners')|nl2br }}
-                    <p>
-                </div>
-                <div class="col-lg-12">
-                    <a href="http://www.comitedeparis.fr/">
-                        <img class="img-responsive img-border img-left" src="{{ asset('bundles/default/img/logo-comiteparis.png') }}" alt="Comite de Paris">
-                    </a>
-                    <p>
-                        {{ ('text.comite') | trans({}, 'partners')|nl2br }}
-                    <p>
+                        {% set mail = 'email' | trans({}, 'contact') %}
+                        {{ ('text') | trans({'%mailto%':'<a href=\"mailto:'~mail~'\">'~mail~'</a>'}, 'registration') | raw | nl2br }}
+                    </p>
                 </div>
              </div>
         </div>
