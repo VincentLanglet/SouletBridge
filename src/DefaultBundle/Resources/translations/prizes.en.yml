@@ -2,36 +2,35 @@ title: Prizes
 
 table:
     order:
-        title:  
         "1": 1<sup>st</sup> prize
         "2": 2<sup>nd</sup> prize
         "3": 3<sup>rd</sup> prize
         "4": 4<sup>th</sup> & 5<sup>th</sup> prize
         "5": Following prizes
     mixte:
-        title: MIXED OR LADIES
+        title: MIXED/LADIES
         "1": 1000€
         "2": 600€
         "3": 400€
         "4": 300€
-        "5": Prizes in kind for the 40 next pairs.
+        "5": Prizes in kind for the 40 next pairs
     imps:
         title: IMPs
         "1": 800€
         "2": 500€
         "3": 300€
         "4": 300€
-        "5": Prizes in kind for the 40 next pairs.
+        "5": Prizes in kind for the 40 next pairs
     open:
         title: OPEN
         "1": 2000€
         "2": 1000€
         "3": 600€
         "4": 400€
-        "5": Prizes in kind for the 40 next pairs.
+        "5": Prizes in kind for the 40 next pairs
 
 championship:
     title: |
-        Championship of Paris (3 tournaments for 4&3&2nd  series  in two sessions) And commented tournaments with handicap formula for the Series 3 & 4 players.
+        Championship of Paris (3 tournaments for 4&3&2<sup>nd</sup> series  in two sessions) and commented tournaments with handicap formula for the Series 3 & 4 players
     prize: |
-        PRIZES IN KIND FOR THE 20 FIRST PAIRS.
+        PRIZES IN KIND FOR THE 20 FIRST PAIRS

@@ -2,36 +2,35 @@ title: Dotations
 
 table:
     order:
-        title:  
         "1": 1<sup>er</sup> prix
         "2": 2<sup>ème</sup> prix
         "3": 3<sup>ème</sup> prix
         "4": 4<sup>ème</sup> & 5<sup>ème</sup> prix
         "5": Prix suivants
     mixte:
-        title: MIXTE OU DAMES
+        title: MIXTE/DAMES
         "1": 1000€
         "2": 600€
         "3": 400€
         "4": 300€
-        "5": Lots en nature pour les 40 paires suivantes.
+        "5": Lots en nature pour les 40 paires suivantes
     imps:
         title: IMPs
         "1": 800€
         "2": 500€
         "3": 300€
         "4": 300€
-        "5": Lots en nature pour les 40 paires suivantes.
+        "5": Lots en nature pour les 40 paires suivantes
     open:
         title: OPEN
         "1": 2000€
         "2": 1000€
         "3": 600€
         "4": 400€
-        "5": Lots en nature pour les 40 paires suivantes.
+        "5": Lots en nature pour les 40 paires suivantes
 
 championship:
     title: |
-        Championnat de Paris (trois tournois par séries 4&3&2ème séries  sur deux jours) et tournois formule handicap (réservés aux 4ème et 3ème séries) en donnes commentés durant le festival.
+        Championnat de Paris (trois tournois par séries 4&3&2<sup>ème</sup> séries sur deux jours) et tournois formule handicap (réservés aux 4<sup>ème</sup> et 3<sup>ème</sup> séries) en donnes commentés durant le festival
     prize: |
-        PRIX EN NATURE POUR LES 20 PREMIERES PAIRES DE CHAQUE TOURNOI.
+        PRIX EN NATURE POUR LES 20 PREMIERES PAIRES DE CHAQUE TOURNOI
