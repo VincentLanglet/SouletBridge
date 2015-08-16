@@ -104,5 +104,7 @@ table:
             diner: Dinner (in option* for non-hotel guests)
 
 option:
-    diner: * Dinner (wines and coffee included) with music entertainment or a debate with the champions included for hotel guets (35€ for non-hotel guests upon reservation).
-    gala: ** Gala dinner on Monday 10<sup>th</sup> November included for hotel guests (50€ for non-hotel guests upon reservation).
+    diner: |
+        * Dinner (wines and coffee included) with music entertainment or a debate with the champions included for hotel guets (35€ for non-hotel guests upon reservation).
+    gala: |
+        ** Gala dinner on Monday 10<sup>th</sup> November included for hotel guests (50€ for non-hotel guests upon reservation).

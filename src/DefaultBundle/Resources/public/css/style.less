@@ -14,16 +14,22 @@
   background-color: rgba(135, 135, 135, 0.5);
 }
 
-@media all and (min-width:1200px) {
-  .margin-top {
-    margin-top: 20px;
+.margin-top {
+  margin-top: 20px;
+}
+
+#home {
+  @media all and (max-width: 1199px) {
+    .margin-top {
+      margin-top: 40px;
+    }
   }
 }
 
-@media all and (max-width:1199px) {
-  .margin-top {
-    margin-top: 40px;
-  }
+.img-partners:hover {
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 table {
@@ -79,10 +85,4 @@ table.partners {
     border:0;
     padding:1%;
   }
-}
-
-.img-partners:hover {
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
