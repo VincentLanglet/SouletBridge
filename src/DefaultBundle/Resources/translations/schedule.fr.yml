@@ -1,8 +1,8 @@
 title: Programme
 
 presentation:
-    title : Un festival pour tous !
-    text : |
+    title: Un festival pour tous !
+    text: |
         Venez vous confronter aux joueurs du monde entier dans le cadre prestigieux du Paris Country Club.
 
         Nous vous proposons 3 tournois successifs: Mixte, IMP's et Open richement dotés (voir Prix). Pour les joueurs 3<sup>ème</sup> et 4<sup>ème</sup> séries qui ne souhaiteraient pas participer aux tournois principaux, Philippe Soulet a spécialement préparé pour vous des tournois commentés avec formule handicap et livrets de toutes les donnes.
@@ -13,7 +13,7 @@ presentation:
 
         <u>Rappel:</u>
         En prélude au festival international de Paris se tiendra les 5 et 6 Novembre un championnat de Paris en partenariat avec Funbridge consacré aux joueurs de 4<sup>ème</sup>, 3<sup>ème</sup> et 2<sup>ème</sup> séries. Il s’agit d’une compétition en deux séances (Jeudi 5 et Vendredi 6 Novembre) où les joueurs sont répartis dans des tournois distincts selon leur classement (les joueurs peuvent décider de jouer dans un tournoi d’une série supérieure à leur classement mais l’inverse n’est pas possible).
-
+    fees: |
         <u>Droits d’engagement:</u>
         Championnat de Paris (Jeudi 5 et Vendredi 6 Novembre): 26€ les deux séances par personne
 
@@ -31,8 +31,6 @@ presentation:
         Tournoi réservé aux 4<sup>ème</sup> et 3<sup>ème</sup> séries: 30€ les deux séances par personne
 
         Droits d’engagement Juniors (moins de 25 ans): 50% des droits d’engagement. La totalité des droits d’engagement Juniors sont redistribués pour chaque tournoi à la première paire Junior
-
-        Dîner tous les soirs avec animation musicale ou débat avec les champions (vins et café compris): inclus dans le forfait hôtelier, 35€ pour les non-résidents de l’hôtel.
 
 table:
     day:
