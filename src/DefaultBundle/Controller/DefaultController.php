@@ -22,6 +22,17 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/hotel", name="presentation")
+     * @Template
+     *
+     * @return array
+     */
+    public function presentationAction()
+    {
+        return array();
+    }
+
+    /**
      * @Route("/schedule", name="schedule")
      * @Template
      *
@@ -33,12 +44,12 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/hotel", name="presentation")
+     * @Route("/registration", name="registration")
      * @Template
      *
      * @return array
      */
-    public function presentationAction()
+    public function registrationAction()
     {
         return array();
     }
@@ -72,6 +83,17 @@ class DefaultController extends Controller
      * @return array
      */
     public function contactAction()
+    {
+        return array();
+    }
+
+    /**
+     * @Route("/map", name="map")
+     * @Template
+     *
+     * @return array
+     */
+    public function mapAction()
     {
         return array();
     }
