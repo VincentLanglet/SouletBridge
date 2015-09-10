@@ -1,6 +1,8 @@
 title: Prizes
 
-subtitle: Festival with great prizes !
+prizes:
+    subtitle: Festival with great prizes !
+    text: For each tournament, The sum of all Juniors’entry fees will be redistributed to the first Junior pair.
 
 table:
     order:
@@ -36,3 +38,24 @@ championship:
         Championship of Paris (3 tournaments for 4&3&2<sup>nd</sup> series  in two sessions) and commented tournaments with handicap formula for the Series 3 & 4 players
     prize: |
         PRIZES IN KIND FOR THE 20 FIRST PAIRS
+
+funbridge:
+    subtitle: With Funbridge as partner
+    text: |
+        <strong>Question time with Jérôme Rombaut</strong>
+        <em>Interview with Jérôme Rombaut, 2013 & 2015 Champion of Europe, the Coach of the Girls Team and a member of the Funbridge Team.</em>
+
+        <strong>Can you introduce Funbridge in a few words?</strong>
+        Funbridge is a duplicate bridge game available on smartphones, tablets and computers (Mac and Windows). You play the hand in South, while North, East and West are played by computers. So you can compare and rank yourself against other players on the same deals.
+
+        <strong>According to you, what are the main advantages of Funbridge?</strong>
+        You play whenever you want. You don’t need a partner available to play and you can also pit yourself against your friends or champions by challenging them on a few deals.
+
+        <strong>What is your role within the Funbridge Team?</strong>
+        I’m in charge of developing the game engine and robot intelligence so that they get as close as possible to human behaviour. The current version of the engine is already the 215th (after only 3 years of existence).
+
+        <strong>How many players play Funbridge?</strong>
+        We have a community of 250,000 players from 167 countries.
+
+        <strong>Is the application free?</strong>
+        Absolutely! It is free to download and 100 deals are offered when you sign up to try it out. Then you can choose between three options: play for free (10 deals per week), purchase a deals pack or take out an unlimited deals subscription (from 8€/month).
