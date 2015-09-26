@@ -7,3 +7,9 @@ services:
         arguments: ["%kernel.default_locale%"]
         tags:
             - { name: kernel.event_subscriber }
+
+    form.type.registration:
+        class: DefaultBundle\Form\Type\RegistrationType
+        arguments: []
+        tags:
+          - { name: form.type, alias: registration}

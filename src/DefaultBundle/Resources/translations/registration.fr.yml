@@ -11,3 +11,9 @@ text: |
 
     Vous pouvez aussi vous inscrire directement via ce %link%.
 link.key: lien
+
+form:
+  name: Nom du/des joueur(s)
+  mail: Adresse mail pour confirmation
+  send: Envoyer le mail
+  success: Mail envoyé avec succès

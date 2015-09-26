@@ -18,6 +18,7 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        {{ include('@Default/flashMessages.html.twig') }}
         {{ include('@Default/header.html.twig') }}
 
         {% block body %}{% endblock %}

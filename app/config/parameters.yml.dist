@@ -6,12 +6,11 @@ parameters:
     database_name:     symfony
     database_user:     root
     database_password: ~
-    # You should uncomment this if you want use pdo_sqlite
-    # database_path: "%kernel.root_dir%/data.db3"
 
     # Mailer
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
+    mailer_port:       8000
     mailer_user:       ~
     mailer_password:   ~
 
@@ -21,3 +20,6 @@ parameters:
     # Admin
     admin.login: admin
     admin.password: admin
+
+    # Dev delivery adress
+    dev_delivery_address: me@example.com

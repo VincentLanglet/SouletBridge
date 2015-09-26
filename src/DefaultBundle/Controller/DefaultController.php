@@ -2,6 +2,7 @@
 
 namespace DefaultBundle\Controller;
 
+use DefaultBundle\Entity\Registration;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -44,14 +45,45 @@ class DefaultController extends Controller
     }
 
     /**
+     * @param Request $request
+     *
      * @Route("/registration", name="registration")
      * @Template
      *
      * @return array
      */
-    public function registrationAction()
+    public function registrationAction(Request $request)
     {
-        return array();
+        $registration = new Registration();
+        $form = $this->createForm('registration', $registration);
+
+        if ($request->isMethod('POST')) {
+            $form->handleRequest($request);
+
+            if ($form->isValid()) {
+                $mail = \Swift_Message::newInstance()
+                    ->setSubject('Inscription')
+                    ->setFrom('noreply@parisbridgefestival.com')
+                    ->setTo('vincentl@theodo.fr')
+                    ->setBody(
+                        $this->renderView(
+                            'DefaultBundle:Default/Mail:registration.html.twig',
+                            array('registration' => $registration)
+                        ),
+                        'text/html'
+                    );
+
+                $this->get('mailer')->send($mail);
+                $this->addFlash('success', $this->get('translator')->trans('form.success', array(), 'registration'));
+
+                $this->redirectToRoute('registration');
+            }
+        }
+
+        return array(
+            'form' => $form->createView(),
+            'registration' => $registration,
+        );
     }
 
     /**

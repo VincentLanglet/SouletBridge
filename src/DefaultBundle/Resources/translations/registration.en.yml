@@ -11,3 +11,9 @@ text: |
 
     You can also register yourself with this %link%.
 link.key : link
+
+form:
+  name: Name of player(s)
+  mail: Mail to send confirmation
+  send: Send mail
+  success: Mail successfully send

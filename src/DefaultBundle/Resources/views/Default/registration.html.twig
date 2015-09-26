@@ -22,5 +22,14 @@
                 </div>
              </div>
         </div>
+
+        <div class="row">
+            <div class="box">
+                <form role="form" action="{{ path('registration') }}" method="post">
+                    <p class="help-block">{{ form_errors(form) }}</p>
+                    {{ form(form) }}
+                </form>
+            </div>
+        </div>
     </div>
 {% endblock %}
