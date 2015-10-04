@@ -2,7 +2,7 @@ title: Prizes
 
 prizes:
     subtitle: Festival with great prizes !
-    text: For each tournament, The sum of all Juniors’entry fees will be redistributed to the first Junior pair.
+    text: For each tournament, the sum of all Juniors’entry fees will be redistributed to the first Junior pair.
 
 table:
     order:
@@ -32,6 +32,21 @@ table:
         "3": 600€
         "4": 400€
         "5": Prizes in kind for the 40 next pairs
+    funbridge:
+        text: For each tournament
+        title:
+            "1": 1<sup>st</sup> prize
+            "2": 2<sup>nd</sup> & 3<sup>rd</sup> prize
+            "3": 4<sup>th</sup> & 5<sup>th</sup> prize
+            "4": Special prizes
+        prize:
+            "1": 1 "Unlimited deals" subscription for 6 months for each player
+            "2": 1 "Unlimited deals" subscription for 3 months for each player
+            "3": 1 "Unlimited deals" subscription for 1 month for each player
+            "4": |
+                1 "Unlimited deals" subscription for 3 months for each player winning a session
+
+                1 "Unlimited deals" subscription for 3 months for each player of the pair closest to 50% of each tournament
 
 championship:
     title: |

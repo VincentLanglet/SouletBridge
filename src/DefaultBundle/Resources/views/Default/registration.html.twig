@@ -12,7 +12,12 @@
                     <hr>
                     <p>
                         {% set mail = 'email' | trans({}, 'contact') %}
-                        {{ ('text') | trans({'%mailto%':'<a href=\"mailto:'~mail~'\">'~mail~'</a>'}, 'registration') | raw | nl2br }}
+                        {% set link = 'link.key' | trans({}, 'registration') %}
+                        {{ ('text') | trans(
+                            {
+                                '%mailto%':'<a href=\"mailto:'~mail~'\">'~mail~'</a>',
+                                '%link%' : '<a href=\"http://81.93.5.215//servlet/FFBInscriptionSitePublic.ServletChoixCompe?codeSite=50\" target=\"_blank\">'~link~'</a>'
+                            }, 'registration') | raw | nl2br }}
                     </p>
                 </div>
              </div>

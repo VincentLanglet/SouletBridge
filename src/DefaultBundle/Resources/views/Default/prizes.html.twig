@@ -72,6 +72,23 @@
                     </h2>
                     <hr>
                     <p>
+                        {{ ('table.funbridge.text') | trans({}, 'prizes') }}
+                    </p>
+
+                    <table class="funbridge-prize">
+                        {% for i in 1..4 %}
+                            <tr>
+                                <td>
+                                    {{ ('table.funbridge.title.'~i) | trans({}, 'prizes') | raw }}
+                                </td>
+                                <td>
+                                    {{ ('table.funbridge.prize.'~i) | trans({}, 'prizes') | nl2br}}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+
+                    <p>
                         {{ 'funbridge.text' | trans({}, 'prizes') | raw | nl2br }}
                     </p>
                 </div>

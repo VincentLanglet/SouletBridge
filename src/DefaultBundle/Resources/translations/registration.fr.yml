@@ -8,3 +8,6 @@ text: |
     En solo: Si vous souhaitez que l’on vous trouve un partenaire, merci de nous envoyer un mail dès que possible avec votre classement (et votre numéro de licence ou la mention non classé si vous n’en avez pas) en précisant bien les tournois auxquels vous souhaitez participer.
 
     Merci de nous envoyer un mail précisant toutes les informations nécessaires à: %mailto%
+
+    Vous pouvez aussi vous inscrire directement via ce %link%.
+link.key: lien
