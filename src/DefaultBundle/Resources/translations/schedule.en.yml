@@ -77,31 +77,31 @@ table:
         "1":
             tournament: Championship of Paris 1<sup>st</sup> session
             cocktail: Short drink and debate on the daily boards
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
         "2":
             tournament: Championship of Paris 2<sup>nd</sup> session
             cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
         "3":
             tournament: Mixed or Ladies pair tournament 1<sup>st</sup> session
             cocktail: Short drink and debate on the daily boards
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
         "4":
             tournament: Mixed or Ladies pair tournament 2<sup>nd</sup> session
             cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
         "5":
             tournament: IMPs pair tournament
             cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
         "6":
             tournament: Open pair tournament 1<sup>st</sup> session
             cocktail: Cocktail party and prize-giving ceremony
-            diner: Gala dinner (in option** for non-hotel guests)
+            diner: Gala dinner**
         "7":
             tournament: Open pair tournament 2<sup>nd</sup> session
             cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner (in option* for non-hotel guests)
+            diner: Dinner*
 
 option:
     diner: |

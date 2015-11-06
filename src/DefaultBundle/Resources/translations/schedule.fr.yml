@@ -77,31 +77,31 @@ table:
         "1":
             tournament: Championnat de Paris 1<sup>ère</sup> séance
             cocktail: Apéritif débat sur les donnes
-            diner: Dîner (optionnel* pour les non-résidents)
+            diner: Dîner*
         "2":
             tournament: Championnat de Paris 2<sup>ème</sup> séance
             cocktail: Cocktail-Remise des prix
-            diner: Dîner (optionnel* pour les non-résidents)
+            diner: Dîner*
         "3":
             tournament: Mixte ou Dames par paire 1<sup>ère</sup> séance
             cocktail: Apéritif débat sur les donnes
-            diner: Dîner (optionnel* pour les non-résidents)
+            diner: Dîner*
         "4":
             tournament: Mixte ou Dames par paire 2<sup>ème</sup> séance
             cocktail: Cocktail-Remise des prix
-            diner: Dîner (optionnel* pour les non-résidents)
+            diner: Dîner*
         "5":
             tournament: Tournoi IMP’s par paire
             cocktail: Cocktail-Remise des prix
-            diner: Dîner dansant (optionnel* pour les non-résidents)
+            diner: Dîner dansant*
         "6":
             tournament: Tournoi open par paire 1<sup>ère</sup> séance
             cocktail: Apéritif débat sur les donnes
-            diner: Dîner de gala** (optionnel* pour les non-résidents)
+            diner: Dîner de gala**
         "7":
             tournament: Tournoi open par paire 2<sup>ème</sup> séance
             cocktail: Cocktail-Remise des prix
-            diner: Dîner (optionnel* pour les non-résidents)
+            diner: Dîner*
 
 option:
     diner: |
