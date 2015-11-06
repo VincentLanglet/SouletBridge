@@ -37,7 +37,7 @@ hr {
 
 .navbar-nav {
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .navbar-header>a.locale {
@@ -70,7 +70,7 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 15px 15px;
     background: #fff;
     background: rgba(255, 255, 255, 0.8);
 }
@@ -106,7 +106,7 @@ footer {
 footer p {
     text-align: center;
     margin: 0;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 @media all and (max-width:767px) {
@@ -124,11 +124,11 @@ footer p {
 
     .brand {
         margin: 0;
-        padding: 30px 0 50px;
+        padding: 30px 0 40px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
         font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5em;
+        font-size: 4.5em;
         font-weight: 700;
         line-height: normal;
         color: #fff;
@@ -149,11 +149,11 @@ footer p {
     }
 
     .nav>li>a.link {
-        padding: 25px 10px;
+        padding: 20px 10px;
     }
 
     .nav>li>a.locale {
-        padding: 15px 10px;
+        padding: 10px 10px;
     }
 
     .navbar-header {
