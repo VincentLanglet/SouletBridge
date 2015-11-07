@@ -66,6 +66,17 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/newsletter", name="newsletter")
+     * @Template
+     *
+     * @return array
+     */
+    public function newsletterAction()
+    {
+        return array();
+    }
+
+    /**
      * @Route("/partners", name="partners")
      * @Template
      *
