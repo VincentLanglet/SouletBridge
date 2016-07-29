@@ -8,9 +8,6 @@ parameters:
     database_password: ~
 
     # Mailer
-    mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_port:       8000
     mailer_user:       ~
     mailer_password:   ~
 

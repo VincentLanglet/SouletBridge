@@ -27,7 +27,10 @@
             <div class="box">
                 <form role="form" action="{{ path('registration') }}" method="post">
                     <p class="help-block">{{ form_errors(form) }}</p>
-                    {{ form(form) }}
+                    {{ form_row(form.name) }}
+                    {{ form_row(form.mail) }}
+                    {{ form_row(form.save) }}
+                    {{ form_row(form._token) }}
                 </form>
             </div>
         </div>
