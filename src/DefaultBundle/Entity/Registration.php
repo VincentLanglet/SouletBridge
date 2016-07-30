@@ -2,49 +2,25 @@
 
 namespace DefaultBundle\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
-
 /**
  * Registration
- *
- * @ORM\Table()
- * @ORM\Entity
  */
 class Registration
 {
     /**
-     * @var integer
-     *
-     * @ORM\Column(name="id", type="integer")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="AUTO")
-     */
-    private $id;
-
-    /**
      * @var string
-     *
-     * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="name", type="string", length=255)
      */
     private $mail;
 
-
     /**
-     * Get id
-     *
-     * @return integer 
+     * @var string
      */
-    public function getId()
-    {
-        return $this->id;
-    }
+    private $information;
 
     /**
      * Set name
@@ -92,5 +68,29 @@ class Registration
     public function getMail()
     {
         return $this->mail;
+    }
+
+    /**
+     * Set information
+     *
+     * @param string $information
+     *
+     * @return Registration
+     */
+    public function setInformation($information)
+    {
+        $this->information = $information;
+
+        return $this;
+    }
+
+    /**
+     * Get information
+     *
+     * @return string
+     */
+    public function getInformation()
+    {
+        return $this->information;
     }
 }

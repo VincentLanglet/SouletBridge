@@ -25,12 +25,20 @@ class RegistrationType extends AbstractType
                 'label' => 'form.mail',
                 'translation_domain' => 'registration',
             ))
+            ->add('information', 'textarea', array(
+                'label' => 'form.information',
+                'translation_domain' => 'registration',
+                'required' => false,
+            ))
             ->add('save', 'submit', array(
                 'label' => 'form.send',
                 'translation_domain' => 'registration',
             ));
     }
 
+    /**
+     * @return string
+     */
     public function getName()
     {
         return 'registration';

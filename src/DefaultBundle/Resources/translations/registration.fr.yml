@@ -9,11 +9,12 @@ text: |
 
     Merci de nous envoyer un mail précisant toutes les informations nécessaires à: %mailto%
 
-    Vous pouvez aussi vous inscrire directement via ce %link%.
+    Vous pouvez aussi vous inscrire directement via ce %link% ou ce formulaire.
 link.key: lien
 
 form:
   name: Nom du/des joueur(s)
   mail: Adresse mail pour confirmation
+  information: Informations supplémentaires
   send: Envoyer le mail
   success: Mail envoyé avec succès
