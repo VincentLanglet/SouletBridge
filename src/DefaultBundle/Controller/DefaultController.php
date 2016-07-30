@@ -64,7 +64,7 @@ class DefaultController extends Controller
                 $mail = \Swift_Message::newInstance()
                     ->setSubject('Inscription')
                     ->setFrom('noreply@parisbridgefestival.com')
-                    ->setTo('vincentl@theodo.fr')
+                    ->setTo('ph.soulet@hotmail.fr')
                     ->setBody(
                         $this->renderView(
                             'DefaultBundle:Default/Mail:registration.html.twig',
