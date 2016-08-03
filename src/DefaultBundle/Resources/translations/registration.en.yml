@@ -9,12 +9,12 @@ text: |
 
     Thank you for sending us a mail as soon as possible including all the necessary details to: %mailto%
 
-    You can also register yourself with this %link% or this form.
+    You can also register yourself with this %link% or the form below.
 link.key : link
 
 form:
   name: Name of player(s)
   mail: Mail to send confirmation
-  information: More information
+  information: More information (Especially if you are looking for a partner, please let us know and specify your ranking)
   send: Send mail
   success: Mail successfully send
