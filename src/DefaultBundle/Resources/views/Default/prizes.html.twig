@@ -30,16 +30,16 @@
                             <tr>
                             {% for i in 1..5 %}
                                 <td>
-                                    {{ ('table.order.'~i) | trans({}, 'prizes') | raw}}
+                                    {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                 </td>
                                 <td>
-                                    {{ ('table.mixte.'~i) | trans({}, 'prizes') }}
+                                    {{ ('table.mixte.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                 </td>
                                 <td>
-                                    {{ ('table.imps.'~i) | trans({}, 'prizes') }}
+                                    {{ ('table.imps.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                 </td>
 								<td>
-                                    {{ ('table.open.'~i) | trans({}, 'prizes') }}
+                                    {{ ('table.open.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                 </td>
                             </tr>
                             {% endfor %}
