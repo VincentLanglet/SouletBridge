@@ -15,6 +15,7 @@ link.key : link
 form:
   name: Name of player(s)
   mail: Mail to send confirmation
+  competitions: Competition(s)
   information: More information (Especially if you are looking for a partner, please let us know and specify your ranking)
   send: Send mail
   success: Mail successfully send

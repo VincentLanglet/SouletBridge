@@ -25,6 +25,10 @@ class RegistrationType extends AbstractType
                 'label' => 'form.mail',
                 'translation_domain' => 'registration',
             ))
+            ->add('competitions', 'text', array(
+                'label' => 'form.competitions',
+                'translation_domain' => 'registration',
+            ))
             ->add('information', 'textarea', array(
                 'label' => 'form.information',
                 'translation_domain' => 'registration',

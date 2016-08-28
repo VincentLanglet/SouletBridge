@@ -20,6 +20,11 @@ class Registration
     /**
      * @var string
      */
+    private $competitions;
+
+    /**
+     * @var string
+     */
     private $information;
 
     /**
@@ -68,6 +73,30 @@ class Registration
     public function getMail()
     {
         return $this->mail;
+    }
+
+    /**
+     * Set competitions
+     *
+     * @param string $competitions
+     *
+     * @return Registration
+     */
+    public function setCompetitions($competitions)
+    {
+        $this->competitions = $competitions;
+
+        return $this;
+    }
+
+    /**
+     * Get competitions
+     *
+     * @return string
+     */
+    public function getCompetitions()
+    {
+        return $this->competitions;
     }
 
     /**
