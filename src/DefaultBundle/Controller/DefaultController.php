@@ -9,6 +9,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * Class DefaultController
+ */
 class DefaultController extends Controller
 {
     /**
@@ -44,47 +47,47 @@ class DefaultController extends Controller
         return array();
     }
 
-    /**
-     * @param Request $request
-     *
-     * @Route("/registration", name="registration")
-     * @Template
-     *
-     * @return array
-     */
-    public function registrationAction(Request $request)
-    {
-        $registration = new Registration();
-        $form = $this->createForm('registration', $registration);
-
-        if ($request->isMethod('POST')) {
-            $form->handleRequest($request);
-
-            if ($form->isValid()) {
-                $mail = \Swift_Message::newInstance()
-                    ->setSubject('Inscription')
-                    ->setFrom('noreply@parisbridgefestival.com')
-                    ->setTo('ph.soulet@hotmail.fr')
-                    ->setBody(
-                        $this->renderView(
-                            'DefaultBundle:Default/Mail:registration.html.twig',
-                            array('registration' => $registration)
-                        ),
-                        'text/html'
-                    );
-
-                $this->get('mailer')->send($mail);
-                $this->addFlash('success', $this->get('translator')->trans('form.success', array(), 'registration'));
-
-                $this->redirectToRoute('registration');
-            }
-        }
-
-        return array(
-            'form' => $form->createView(),
-            'registration' => $registration,
-        );
-    }
+//    /**
+//     * @param Request $request
+//     *
+//     * @Route("/registration", name="registration")
+//     * @Template
+//     *
+//     * @return array
+//     */
+//    public function registrationAction(Request $request)
+//    {
+//        $registration = new Registration();
+//        $form = $this->createForm('registration', $registration);
+//
+//        if ($request->isMethod('POST')) {
+//            $form->handleRequest($request);
+//
+//            if ($form->isValid()) {
+//                $mail = \Swift_Message::newInstance()
+//                    ->setSubject('Inscription')
+//                    ->setFrom('noreply@parisbridgefestival.com')
+//                    ->setTo('ph.soulet@hotmail.fr')
+//                    ->setBody(
+//                        $this->renderView(
+//                            'DefaultBundle:Default/Mail:registration.html.twig',
+//                            array('registration' => $registration)
+//                        ),
+//                        'text/html'
+//                    );
+//
+//                $this->get('mailer')->send($mail);
+//                $this->addFlash('success', $this->get('translator')->trans('form.success', array(), 'registration'));
+//
+//                $this->redirectToRoute('registration');
+//            }
+//        }
+//
+//        return array(
+//            'form'         => $form->createView(),
+//            'registration' => $registration,
+//        );
+//    }
 
     /**
      * @Route("/prizes", name="prizes")

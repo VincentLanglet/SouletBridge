@@ -44,7 +44,7 @@ class Registration
     /**
      * Get name
      *
-     * @return string 
+     * @return string
      */
     public function getName()
     {
