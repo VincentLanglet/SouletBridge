@@ -6,6 +6,9 @@ use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
+/**
+ * Class LocaleListener
+ */
 class LocaleListener implements EventSubscriberInterface
 {
     /**

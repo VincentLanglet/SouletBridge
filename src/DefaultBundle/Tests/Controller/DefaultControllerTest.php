@@ -4,13 +4,16 @@ namespace DefaultBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
+/**
+ * Class DefaultControllerTest
+ */
 class DefaultControllerTest extends WebTestCase
 {
     public function testHome()
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/');
+        $client->request('GET', '/');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -18,7 +21,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/presentation');
+        $client->request('GET', '/presentation');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -26,7 +29,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/schedule');
+        $client->request('GET', '/schedule');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -34,7 +37,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/prizes');
+        $client->request('GET', '/prizes');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -42,7 +45,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/partners');
+        $client->request('GET', '/partners');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -50,7 +53,7 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/contact');
+        $client->request('GET', '/contact');
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
@@ -58,10 +61,10 @@ class DefaultControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/switch_locale/fr');
+        $client->request('GET', '/switch_locale/fr');
         $this->assertEquals(302, $client->getResponse()->getStatusCode());
 
-        $crawler = $client->followRedirect();
+        $client->followRedirect();
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
         $this->assertEquals('/', $client->getRequest()->getRequestUri());
     }

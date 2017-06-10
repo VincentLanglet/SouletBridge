@@ -18,24 +18,24 @@ class RegistrationType extends AbstractType
     {
         $builder
             ->add('name', 'text', array(
-                'label' => 'form.name',
+                'label'              => 'form.name',
                 'translation_domain' => 'registration',
             ))
             ->add('mail', 'email', array(
-                'label' => 'form.mail',
+                'label'              => 'form.mail',
                 'translation_domain' => 'registration',
             ))
             ->add('competitions', 'text', array(
-                'label' => 'form.competitions',
+                'label'              => 'form.competitions',
                 'translation_domain' => 'registration',
             ))
             ->add('information', 'textarea', array(
-                'label' => 'form.information',
+                'label'              => 'form.information',
                 'translation_domain' => 'registration',
-                'required' => false,
+                'required'           => false,
             ))
             ->add('save', 'submit', array(
-                'label' => 'form.send',
+                'label'              => 'form.send',
                 'translation_domain' => 'registration',
             ));
     }
