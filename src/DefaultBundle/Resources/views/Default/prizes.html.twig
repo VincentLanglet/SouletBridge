@@ -21,30 +21,55 @@
                                 <td>
                                     {{ ('table.mixte.title') | trans({}, 'prizes') }}
                                 </td>
-								<td>
-                                    {{ ('table.open.title') | trans({}, 'prizes') }}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in 1..5 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.imps.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.mixte.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    <table class="prize">
+                        <thead>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    {{ ('table.open_a.title') | trans({}, 'prizes') }}
+                                </td>
+                                <td>
+                                    {{ ('table.open_b.title') | trans({}, 'prizes') }}
                                 </td>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                            {% for i in 1..5 %}
-                                <td>
-                                    {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                </td>
-                                <td>
-                                    {{ ('table.imps.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                </td>
-                                <td>
-                                    {{ ('table.mixte.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                </td>
-								<td>
-                                    {{ ('table.open.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                </td>
-                            </tr>
+                            {% for i in 1..4 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.order_open.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.open_a.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.open_b.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                </tr>
                             {% endfor %}
                         </tbody>
                     </table>
+
 					<table class="prize">
 						<tr>
 							<td>
