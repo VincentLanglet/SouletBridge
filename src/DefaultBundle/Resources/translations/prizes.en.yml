@@ -2,7 +2,6 @@ title: Prizes
 
 prizes:
     subtitle: Festival with great prizes !
-    text: For each tournament, the sum of all Juniors’entry fees will be redistributed to the first Junior pair.
 
 table:
     order:
@@ -53,6 +52,12 @@ table:
         "3": 300€
         "4": |
             Prizes in kind for the next 20 pairs
+    handicap:
+        title: HANDICAP
+        "1": 500€
+        "2": 400€
+        "3": 300€
+        "4": Prizes in kind for the next 10 pairs
     funbridge:
         text: For each tournament,
         title:

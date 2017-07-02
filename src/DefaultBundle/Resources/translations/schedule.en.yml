@@ -25,14 +25,14 @@ presentation :
         Promotion Cup Ile de France (Monday 30<sup>th</sup> and Tuesday 31<sup>st</sup> October) : 35 € for the two sessions per person
 
         Every evening there will be an optional dinner with musical entertainment or a bridge debate with champions (included for hotel guests, 35€ for others upon reservation).
-        Saturday evening’s Gala dinner: (included for hotel guests, 55€ for others upon reservation).
+        Saturday evening’s Gala dinner: (included for hotel guests, 60 € for others upon reservation).
 
         <u>Special offers:</u>
         Weekly package: 140 € for Mixed (or Ladies), Open and Imps
 
         Weekly package for Series 3 and 4 :125 € for Mixed (or Ladies), Open and Promotion Cup
 
-        Juniors’ (less than 25 years old) entry fees: half of normal entry fees. The sum of all Juniors’ entry fees will be redistributed for each tournament to the first Juniors pair.
+        Juniors’ (less than 25 years old) entry fees: half of normal entry fees.
 
 table:
     day:
@@ -61,7 +61,7 @@ table:
         "4":
             tournament: 4pm
             cocktail: 8pm
-            diner: 9.30pm
+            diner: 9.00pm
         "5":
             tournament: 3pm
             cocktail: 7pm
@@ -109,4 +109,4 @@ option:
     diner: |
         * Dinner (wines and coffee included) with a debate with the champions included for hotel guets (35€ for non-hotel guests upon reservation).
     gala: |
-        ** Gala dinner on Saturday 12<sup>th</sup> included for hotel guests (55€ for non-hotel guests upon reservation).
+        ** Gala dinner on Saturday 12<sup>th</sup> included for hotel guests (60€ for non-hotel guests upon reservation).

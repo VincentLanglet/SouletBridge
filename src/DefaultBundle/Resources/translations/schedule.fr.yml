@@ -25,7 +25,7 @@ presentation:
         Coupe Promotion Ile de France (Lundi 30 et Mardi 31 Octobre) : 35 € les deux séances par personne
 
         Dîner tous les soirs avec animation musicale ou débat avec les champions (vins et café compris) : inclus dans le forfait hôtelier, 35€ pour les non-résidents de l’hôtel sur réservation.
-        Dîner de gala de Samedi soir : 55€
+        Dîner de gala de Samedi soir : 60€
 
         <u>Offres spéciales :</u>
 
@@ -33,7 +33,7 @@ presentation:
 
         Forfait pour les 3èmes et 4èmes séries : 125 € la semaine pour Mixte (ou Dames), Open et Coupe Promotion
 
-        Droits d’engagement Juniors (moins de 25 ans): 50% des droits d’engagement. La totalité des droits d’engagement Juniors sont redistribués pour chaque tournoi à la première paire Junior.
+        Droits d’engagement Juniors (moins de 25 ans): 50% des droits d’engagement.
 
 table:
     day:
@@ -58,7 +58,7 @@ table:
         "3":
             tournament: 16h
             cocktail: 20h
-            diner: 21h30
+            diner: 21h00
         "4":
             tournament: 15h
             cocktail: 19h
@@ -110,4 +110,4 @@ option:
     diner: |
         * Dîner optionnel tous les soirs avec débat avec les champions : inclus dans le forfait hôtelier, 35 € pour les non-résidents, sur réservation
     gala: |
-        ** Dîner de gala du Samedi 12 Novembre : inclus dans le forfait hôtelier, 55 € pour les non-résidents, sur réservation
+        ** Dîner de gala du Samedi 12 Novembre : inclus dans le forfait hôtelier, 60 € pour les non-résidents, sur réservation

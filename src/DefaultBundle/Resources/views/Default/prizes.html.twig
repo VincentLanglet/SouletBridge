@@ -51,6 +51,9 @@
                                 <td>
                                     {{ ('table.open_b.title') | trans({}, 'prizes') }}
                                 </td>
+                                <td>
+                                    {{ ('table.handicap.title') | trans({}, 'prizes') }}
+                                </td>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,6 +67,9 @@
                                     </td>
                                     <td>
                                         {{ ('table.open_b.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.handicap.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -80,10 +86,6 @@
 							</td>
 						</tr>
 					</table>
-
-                    <p>
-                        {{ ('prizes.text') | trans({}, 'prizes') }}
-                    </p>
                 </div>
             </div>
         </div>
