@@ -68,11 +68,11 @@ table:
             cocktail: 18h30
             diner: 20h
         "6":
-            tournament: 14h30
+            tournament: 15h / 14h30
             cocktail: 18h30
             diner: 20h
         "7":
-            tournament: 14h30
+            tournament: 15h / 14h30
             cocktail: 18h30
             diner: .
     program:
@@ -98,11 +98,11 @@ table:
             cocktail: Cocktail-Remise des prix
             diner: Dîner*
         "6":
-            tournament: Coupe Promotion ou IMP par paire 1<sup>ère</sup> séance
+            tournament: Coupe Promotion / IMP par paire 1<sup>ère</sup> séance
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "7":
-            tournament: Coupe Promotion ou IMP par paire 2<sup>ème</sup> séance
+            tournament: Coupe Promotion / IMP par paire 2<sup>ème</sup> séance
             cocktail: Cocktail-Remise des prix
             diner: .
 

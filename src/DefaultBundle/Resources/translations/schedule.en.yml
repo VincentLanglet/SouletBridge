@@ -67,11 +67,11 @@ table:
             cocktail: 7pm
             diner: 8.30pm
         "6":
-            tournament: 2.30pm
+            tournament: 3pm / 2.30pm
             cocktail: 6.30pm
             diner: 8pm
         "7":
-            tournament: 2.30pm
+            tournament: 3pm / 2.30pm
             cocktail: 6.30pm
             diner: .
     program:
@@ -97,11 +97,11 @@ table:
             cocktail: Cocktail party and prize-giving ceremony
             diner: Dinner*
         "6":
-            tournament: Promotion Cup or IMPs' pairs 1<sup>st</sup> session
+            tournament: Promotion Cup / IMPs' pairs 1<sup>st</sup> session
             cocktail: Cocktail party and prize-giving ceremony
             diner: Dinner*
         "7":
-            tournament: Promotion Cup or IMPs' pairs 2<sup>nd</sup> session
+            tournament: Promotion Cup / IMPs' pairs 2<sup>nd</sup> session
             cocktail: Cocktail party and prize-giving ceremony
             diner: .
 
