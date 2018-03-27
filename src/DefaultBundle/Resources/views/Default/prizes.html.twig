@@ -24,7 +24,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for i in 1..5 %}
+                            {% for i in 1..6 %}
                                 <tr>
                                     <td>
                                         {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
@@ -46,46 +46,40 @@
                                 <td>
                                 </td>
                                 <td>
-                                    {{ ('table.open_a.title') | trans({}, 'prizes') }}
+                                    {{ ('table.open.title') | trans({}, 'prizes') }}
                                 </td>
                                 <td>
-                                    {{ ('table.open_b.title') | trans({}, 'prizes') }}
-                                </td>
-                                <td>
-                                    {{ ('table.handicap.title') | trans({}, 'prizes') }}
+                                    {{ ('table.barometer.title') | trans({}, 'prizes') }}
                                 </td>
                             </tr>
                         </thead>
                         <tbody>
-                            {% for i in 1..4 %}
+                            {% for i in 1..6 %}
                                 <tr>
                                     <td>
-                                        {{ ('table.order_open.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                     </td>
                                     <td>
-                                        {{ ('table.open_a.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                        {{ ('table.open.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                     </td>
                                     <td>
-                                        {{ ('table.open_b.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.handicap.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                        {{ ('table.barometer.'~i) | trans({}, 'prizes') | raw | nl2br }}
                                     </td>
                                 </tr>
                             {% endfor %}
                         </tbody>
                     </table>
 
-					<table class="prize">
-						<tr>
-							<td>
-								{{ ('championship.title') | trans({}, 'prizes') | raw }}
-							</td>
-							<td>
-								{{ ('championship.prize') | trans({}, 'prizes') }}
-							</td>
-						</tr>
-					</table>
+					{#<table class="prize">#}
+						{#<tr>#}
+							{#<td>#}
+								{#{{ ('championship.title') | trans({}, 'prizes') | raw }}#}
+							{#</td>#}
+							{#<td>#}
+								{#{{ ('championship.prize') | trans({}, 'prizes') }}#}
+							{#</td>#}
+						{#</tr>#}
+					{#</table>#}
                 </div>
             </div>
         </div>

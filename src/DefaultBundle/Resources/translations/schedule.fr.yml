@@ -5,9 +5,11 @@ presentation:
     text: |
         Venez vous confronter aux joueurs du monde entier dans le cadre prestigieux du Paris Country Club.
 
-        Nous vous proposons 3 tournois successifs: Mixte (ou Dames), Open et IMP (pour les 1ères et 2èmes séries) ou Coupe Promotion Ile de France (pour les 3èmes et 4èmes séries) richement dotés (voir prix).
+        Nous vous proposons 4 tournois successifs: Mixte (ou Dames), Open, Baromètre et IMPs.
 
-        A la fin de chaque séance vous serez conviés un apéritif avec les champions. A la fin de chaque tournoi nous vous inviterons à un cocktail avec remise des prix. Chaque soir aura lieu un dîner optionnel avec débat avec les champions
+        Deux tournois distincts vous seront proposés pour le Mixte, le Baromètre et l’IMPs avec au choix un tournoi ouvert à tous OU un tournoi réservé aux 3èmes, 4èmes séries et non classés.
+
+        A la fin de chaque séance vous serez conviés un apéritif avec les champions. A la fin de chaque tournoi nous vous inviterons à un cocktail avec remise des prix. Chaque soir aura lieu un dîner optionnel avec débat avec les champions.
 
         Un dîner de gala optionnel se tiendra le Samedi soir.
 
@@ -15,38 +17,46 @@ presentation:
         <u>Droits d’engagement:</u>
 
         Festival international de Paris
-        - Mercredi 25 et Jeudi 26 Octobre
-        Mixte ou Dames : 50 € les deux séances par personne
-        - Vendredi 27, Samedi 28 et Dimanche 29 Octobre
-        Open : 75 € les trois séances par personne
-        - Lundi 30 et Mardi 31 Octobre
-        IMP : 50 € les deux séances par personne
+        - Jeudi 25 et Vendredi 26 Octobre
+        Mixte ou Dames : 50€ les deux séances de 30 donnes par personne
+        - Samedi 27 et Dimanche 28 Octobre
+        Open : 60€ les trois séances par personne : deux séances de 18 donnes le Samedi et une séance de 30 donnes le Dimanche
+        - Lundi 29 et Mardi 30 Octobre
+        Baromètre : 50€ les deux séances de 30 donnes par personne
+        - Mercredi 31 Octobre:
+        IMP : 25€ la séance par personne
 
-        Coupe Promotion Ile de France (Lundi 30 et Mardi 31 Octobre) : 35 € les deux séances par personne
+        Droits d’engagement des tournois réservés aux 3èmes et 4èmes séries et dotés uniquement en nature : 35€ les deux séances par personne pour Mixte et Baromètre, 15€ la séance pour l’IMPs.
 
-        Dîner tous les soirs avec animation musicale ou débat avec les champions (vins et café compris) : inclus dans le forfait hôtelier, 35€ pour les non-résidents de l’hôtel sur réservation.
+        Dîner tous les soirs avec débat avec les champions (vins et café compris) : inclus dans le forfait hôtelier, 35€ pour les non-résidents de l’hôtel sur réservation.
         Dîner de gala de Samedi soir : 60€
 
         <u>Offres spéciales :</u>
 
-        Forfait semaine : 140 € pour Mixte (ou Dames), Open et Imps
+        Forfait semaine : 155 € pour Mixte (ou Dames), Open, Baromètre et Imps
 
-        Forfait pour les 3èmes et 4èmes séries : 125 € la semaine pour Mixte (ou Dames), Open et Coupe Promotion
+        Forfait pour les 3èmes, 4èmes séries et non classés: 105 € la semaine pour Mixte (ou Dames), Open, Baromètre** et IMPs**
+        (** tournois réservés aux 3èmes, 4èmes séries et non classés)
 
         Droits d’engagement Juniors (moins de 25 ans): 50% des droits d’engagement.
 
 table:
     day:
         title: JOUR
-        "1": Mercredi 25 Octobre
-        "2": Jeudi 26 Octobre
-        "3": Vendredi 27 Octobre
-        "4": Samedi 28 Octobre
-        "5": Dimanche 29 Octobre
-        "6": Lundi 30 Octobre
-        "7": Mardi 31 Octobre
+        "0": Mercredi 24 Octobre
+        "1": Jeudi 25 Octobre
+        "2": Vendredi 26 Octobre
+        "3": Samedi 27 Octobre
+        "4": Dimanche 28 Octobre
+        "5": Lundi 29 Octobre
+        "6": Mardi 30 Octobre
+        "7": Mercredi 31 Octobre
     schedule:
         title: HORAIRE
+        "0":
+            tournament: 14h
+            cocktail: 18h30
+            diner: 20h
         "1":
             tournament: 14h30
             cocktail: 18h30
@@ -56,11 +66,11 @@ table:
             cocktail: 18h30
             diner: 20h
         "3":
-            tournament: 16h
+            tournament: 14h30 & 17h
             cocktail: 20h
             diner: 21h00
         "4":
-            tournament: 15h
+            tournament: 14h30
             cocktail: 19h
             diner: 20h30
         "5":
@@ -68,15 +78,19 @@ table:
             cocktail: 18h30
             diner: 20h
         "6":
-            tournament: 15h / 14h30
+            tournament: 14h30
             cocktail: 18h30
             diner: 20h
         "7":
-            tournament: 15h / 14h30
+            tournament: 14h30
             cocktail: 18h30
             diner: .
     program:
         title: PROGRAMME
+        "0":
+            tournament: Coupe Epsilon (au profit du téléthon)
+            cocktail: Apéritif avec les champions
+            diner: Dîner*
         "1":
             tournament: Mixte ou Dames par paire 1<sup>ère</sup> séance
             cocktail: Apéritif avec les champions
@@ -86,23 +100,23 @@ table:
             cocktail: Cocktail-Remise des prix
             diner: Dîner*
         "3":
-            tournament: Tournoi open par paire 1<sup>ère</sup> séance
+            tournament: Tournoi open par paire 1<sup>ère</sup> & 2<sup>ème</sup> séances
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "4":
-            tournament: Tournoi open par paire 2<sup>ème</sup> séance
+            tournament: Tournoi open par paire 3<sup>ème</sup> séance
             cocktail: Apéritif avec les champions
             diner: Dîner de gala**
         "5":
-            tournament: Tournoi open par paire 3<sup>ème</sup> séance
+            tournament: Baromètre par paire 1<sup>ère</sup> séance
             cocktail: Cocktail-Remise des prix
             diner: Dîner*
         "6":
-            tournament: Coupe Promotion / IMP par paire 1<sup>ère</sup> séance
+            tournament: Baromètre par paire 2<sup>ème</sup> séance
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "7":
-            tournament: Coupe Promotion / IMP par paire 2<sup>ème</sup> séance
+            tournament: IMP par paire
             cocktail: Cocktail-Remise des prix
             diner: .
 

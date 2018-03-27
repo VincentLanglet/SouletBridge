@@ -17,3 +17,5 @@
 /web/img/*
 /web/uploads
 /web/bower_components
+
+.DS_Store

@@ -28,9 +28,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for i in 1..7 %}
+                            {% for i in 0..7 %}
                                 <tr>
-                                    <td rowspan="3">
+                                    <td>
                                         {{ ('table.day.'~i) | trans({}, 'schedule') | raw }}
                                     </td>
                                     <td>
@@ -40,32 +40,32 @@
                                         {{ ('table.program.'~i~'.tournament') | trans({}, 'schedule') | raw }}
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        {{ ('table.schedule.'~i~'.cocktail') | trans({}, 'schedule') }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.program.'~i~'.cocktail') | trans({}, 'schedule') }}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {{ ('table.schedule.'~i~'.diner') | trans({}, 'schedule') }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.program.'~i~'.diner') | trans({}, 'schedule') }}
-                                    </td>
-                                </tr>
+                                {#<tr>#}
+                                    {#<td>#}
+                                        {#{{ ('table.schedule.'~i~'.cocktail') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                    {#<td>#}
+                                        {#{{ ('table.program.'~i~'.cocktail') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                {#</tr>#}
+                                {#<tr>#}
+                                    {#<td>#}
+                                        {#{{ ('table.schedule.'~i~'.diner') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                    {#<td>#}
+                                        {#{{ ('table.program.'~i~'.diner') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                {#</tr>#}
                             {% endfor %}
                         </tbody>
                     </table>
-                    <p>
-                        {{ ('option.diner') | trans({}, 'schedule') | nl2br }}
-                    </p>
-                    <p>
-                        {{ ('option.gala') | trans({}, 'schedule') | raw | nl2br }}
-                    </p>
-                    <br>
+                    {#<p>#}
+                        {#{{ ('option.diner') | trans({}, 'schedule') | nl2br }}#}
+                    {#</p>#}
+                    {#<p>#}
+                        {#{{ ('option.gala') | trans({}, 'schedule') | raw | nl2br }}#}
+                    {#</p>#}
+                    {#<br>#}
                     <p>
                         {{ ('presentation.fees') | trans({}, 'schedule') | raw | nl2br }}
                     </p>
