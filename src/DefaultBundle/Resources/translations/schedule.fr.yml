@@ -68,7 +68,7 @@ table:
         "3":
             tournament: 14h30 & 17h
             cocktail: 20h
-            diner: 21h00
+            diner: 21h
         "4":
             tournament: 14h30
             cocktail: 19h
@@ -92,31 +92,31 @@ table:
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "1":
-            tournament: Mixte ou Dames par paire 1<sup>ère</sup> séance
+            tournament: Mixte ou Dames par paires 1<sup>ère</sup> séance
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "2":
-            tournament: Mixte ou Dames par paire 2<sup>ème</sup> séance
+            tournament: Mixte ou Dames par paires 2<sup>ème</sup> séance
             cocktail: Cocktail-Remise des prix
             diner: Dîner*
         "3":
-            tournament: Tournoi open par paire 1<sup>ère</sup> & 2<sup>ème</sup> séances
+            tournament: Tournoi open par paires 1<sup>ère</sup> & 2<sup>ème</sup> séances
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "4":
-            tournament: Tournoi open par paire 3<sup>ème</sup> séance
-            cocktail: Apéritif avec les champions
+            tournament: Tournoi open par paires 3<sup>ème</sup> séance
+            cocktail: Cocktail-Remise des prix
             diner: Dîner de gala**
         "5":
-            tournament: Baromètre par paire 1<sup>ère</sup> séance
-            cocktail: Cocktail-Remise des prix
+            tournament: Baromètre par paires 1<sup>ère</sup> séance
+            cocktail: Apéritif avec les champions
             diner: Dîner*
         "6":
-            tournament: Baromètre par paire 2<sup>ème</sup> séance
+            tournament: Baromètre par paires 2<sup>ème</sup> séance
             cocktail: Apéritif avec les champions
             diner: Dîner*
         "7":
-            tournament: IMP par paire
+            tournament: IMP par paires
             cocktail: Cocktail-Remise des prix
             diner: .
 
@@ -124,4 +124,4 @@ option:
     diner: |
         * Dîner optionnel tous les soirs avec débat avec les champions : inclus dans le forfait hôtelier, 35 € pour les non-résidents, sur réservation
     gala: |
-        ** Dîner de gala du Samedi 12 Novembre : inclus dans le forfait hôtelier, 60 € pour les non-résidents, sur réservation
+        ** Dîner de gala du Dimanche 28 Octobre : inclus dans le forfait hôtelier, 60 € pour les non-résidents, sur réservation
