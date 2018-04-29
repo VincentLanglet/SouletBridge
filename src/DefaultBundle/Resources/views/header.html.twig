@@ -4,9 +4,9 @@
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
-        {#<a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">#}
-            {#<img src="{{ asset('locale.image' | trans({}, 'main')) }}">#}
-        {#</a>#}
+        <a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">
+            <img src="{{ asset('locale.image' | trans({}, 'main')) }}">
+        </a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -49,11 +49,11 @@
             <li>
                 <a class="link" href="{{ path('map') }}">{{ 'title' | trans({}, 'map') }}</a>
             </li>
-            {#<li class="locale">#}
-                {#<a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">#}
-                    {#<img src="{{ asset('locale.image' | trans({}, 'main')) }}">#}
-                {#</a>#}
-            {#</li>#}
+            <li class="locale">
+                <a class="locale" href="{{ path('switch_locale', {"locale": 'locale.language' | trans({}, 'main') }) }}">
+                    <img src="{{ asset('locale.image' | trans({}, 'main')) }}">
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
