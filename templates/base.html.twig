@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        {% block stylesheet %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        <title>{% block title %}{{ 'blocktitle' | trans({}, 'main') }}{% endblock %}</title>
+    </head>
+    <body>
+        {{ include('flashMessages.html.twig') }}
+        {{ include('header.html.twig') }}
+
+        {% block body %}{% endblock %}
+
+        {{ include('footer.html.twig') }}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>
