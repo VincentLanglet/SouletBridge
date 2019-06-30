@@ -1,0 +1,312 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container" id="home">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="{{ asset('images/exterior-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/entry-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/carousel-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/terrasse-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/view-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/lobby-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/bar-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/golf-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/parcours1-modif.jpg') }}" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="{{ asset('images/village-modif.jpg') }}" alt="">
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('presentation.title') | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <p>
+                        {{ ('presentation.text') | trans({}, 'home') | raw | nl2br }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('hotel.title') | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="{{ asset('images/verdure-modif.jpg') }}">
+                    <hr class="visible-xs">
+                    <p>
+                        {{ ('hotel.text') | trans({}, 'home') | raw }}
+                    </p>
+                </div>
+            </div>
+        </div>
+		
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('host.title') | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-xs-6">
+                        <a href="http://www.pariscountryclub.com/" target="_blank">
+                            <img class="img-responsive img-center img-partners" src="{{ asset('images/logo-pariscountry.png') }}">
+                        </a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="http://www.marriott.fr/hotels/travel/parsc-renaissance-paris-hippodrome-de-st-cloud-hotel/" target="_blank">
+                            <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-hotelrenaissance.png') }}">
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+				</div>
+                <div class="col-lg-12 margin-top">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('partners.title') | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <table class="partners">
+                        <tr>
+                            <td>
+                                <a href="{{ ('partners.vignelaure') | trans({}, 'home') }}" target="_blank">
+							        <img class="img-responsive img-border img-center img-partners"
+                                         src="{{ asset('images/logo-vignelaure.png') }}"
+                                         alt="Château Vignelaure">
+                                </a>
+                            </td>
+							<td>
+                                <a href="http://www.funbridge.com/" target="_blank">
+							        <img class="img-responsive img-border img-center img-partners"
+                                         src="{{ asset('images/logo-funbridge.png') }}"
+                                         alt="Funbridge">
+                                </a>
+                            </td>
+							<td>
+                                <a href="http://www.lebridgeur.com/" target="_blank">
+							        <img class="img-responsive img-border img-center img-partners"
+                                         src="{{ asset('images/logo-lebridgeur.png') }}"
+                                         alt="Le Bridgeur">
+                                </a>
+                            </td>
+                        </tr>
+					</table>
+                    <table class="partners">
+                        <tr>
+                            <td>
+                                <a href="http://www.afer.asso.fr/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners"
+                                         src="{{ asset('images/logo-afer.png') }}"
+                                         alt="Afer">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="http://www.vinoptimo.com/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners"
+                                         src="{{ asset('images/logo-vinoptimo.png') }}"
+                                         alt="Vinoptimo">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+			</div>
+        </div>		
+
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ 'team.title' | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/philippe-soulet.jpg') }}">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Philippe Soulet</strong>
+                            </p>
+                            {{ 'team.soulet' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/claude-katan.jpg') }}">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Claude Katan</strong>
+                            </p>
+                            {{ 'team.katan' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/xavier-schurer.jpg') }}" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Xavier Schurer</strong>
+                            </p>
+                            {{ 'team.schurer' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/laurent-thuillez.jpg') }}" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Laurent Thuillez</strong>
+                            </p>
+                            {{ 'team.thuillez' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/benoit-brochu.jpg') }}" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Benoît Brochu</strong>
+                            </p>
+                            {{ 'team.brochu' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-xs-6">
+                            <img class="img-responsive img-border img-center" src="{{ asset('images/jerome-rombaut.jpg') }}" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <p>
+                                <strong>Jérôme Rombaut</strong>
+                            </p>
+                            {{ 'team.rombaut' | trans({}, 'home') }}
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('links.title') | trans({}, 'home') }}</strong>
+                    </h2>
+                    <hr>
+                    <p>
+						{{ ('links.text') | trans({}, 'home') }}
+                    </p>
+                    <br>
+                    <table class="partners">
+                        <tr>
+                            <td>
+                                <a href="http://www.comitedeparis.fr/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-comiteparis.png') }}">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="http://www.ffbridge.asso.fr/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-ffb.png') }}">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="http://www.worldbridge.org/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-WBF.png') }}">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <p>
+						<strong> {{ ('links.continue') | trans({}, 'home') }} </strong>
+                    </p>
+                    <br>
+                    <table class="partners">
+                        <tr>
+                            <td>
+                                <a href="http://www.parisinfo.com/" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-otparis.png') }}">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="http://francebridge.free.fr/index.php?option=com_content&view=frontpage" target="_blank">
+                                    <img class="img-responsive img-border img-center img-partners" src="{{ asset('images/logo-fb.png') }}">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+				</div>
+			</div>
+        </div>
+    </div>
+{% endblock %}

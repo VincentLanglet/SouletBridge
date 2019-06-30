@@ -1,0 +1,23 @@
+blocktitle: Paris Festival
+
+title:
+    short: International Bridge Festival
+    long: |
+        4<sup>th</sup> International Bridge Festival
+        of the Paris Country Club
+    result: Result
+
+locale:
+    language: fr
+    image: images/flag-fr.png
+
+download:
+    path: download/brochure_festival_en.pdf
+    file: Festival brochure
+    text: Download the festival brochure
+
+phone: Phone
+email: Email
+address: Address
+
+backToTop: Back to top

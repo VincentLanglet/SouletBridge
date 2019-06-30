@@ -1,0 +1,23 @@
+blocktitle: Festival de Paris
+
+title:
+    short: Festival International de Bridge
+    long: |
+        4<sup>ème</sup> Festival International de Bridge
+        du Paris Country Club
+    result: Résultat
+
+locale:
+    language: en
+    image: images/flag-en.png
+
+download:
+    path: download/brochure_festival_fr.pdf
+    file: Brochure du festival
+    text: Télécharger la brochure du festival
+
+phone: Téléphone
+email: Courriel
+address: Adresse
+
+backToTop: Haut de page

@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container" id="schedule">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ ('presentation.title') | trans({}, 'schedule') | nl2br }}</strong>
+                    </h2>
+                    <hr>
+                    <p>
+                        {{ ('presentation.text') | trans({}, 'schedule') | raw | nl2br }}
+                    </p>
+                    <table class="schedule">
+                        <thead>
+                            <tr>
+                                <td>
+                                    {{ ('table.day.title') | trans({}, 'schedule') }}
+                                </td>
+                                <td>
+                                    {{ ('table.schedule.title') | trans({}, 'schedule') }}
+                                </td>
+                                <td>
+                                    {{ ('table.program.title') | trans({}, 'schedule') }}
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in 0..7 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.day.'~i) | trans({}, 'schedule') | raw }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.schedule.'~i~'.tournament') | trans({}, 'schedule') }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.program.'~i~'.tournament') | trans({}, 'schedule') | raw }}
+                                    </td>
+                                </tr>
+                                {#<tr>#}
+                                    {#<td>#}
+                                        {#{{ ('table.schedule.'~i~'.cocktail') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                    {#<td>#}
+                                        {#{{ ('table.program.'~i~'.cocktail') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                {#</tr>#}
+                                {#<tr>#}
+                                    {#<td>#}
+                                        {#{{ ('table.schedule.'~i~'.diner') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                    {#<td>#}
+                                        {#{{ ('table.program.'~i~'.diner') | trans({}, 'schedule') }}#}
+                                    {#</td>#}
+                                {#</tr>#}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    {#<p>#}
+                        {#{{ ('option.diner') | trans({}, 'schedule') | nl2br }}#}
+                    {#</p>#}
+                    {#<p>#}
+                        {#{{ ('option.gala') | trans({}, 'schedule') | raw | nl2br }}#}
+                    {#</p>#}
+                    {#<br>#}
+                    <p>
+                        {{ ('presentation.fees') | trans({}, 'schedule') | raw | nl2br }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

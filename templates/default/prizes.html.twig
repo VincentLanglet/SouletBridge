@@ -1,0 +1,119 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container" id="prizes">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ 'prizes.subtitle' | trans({}, 'prizes') }}</strong>
+                    </h2>
+                    <hr>
+                    <table class="prize">
+                        <thead>
+							<tr>
+                                <td>
+                                </td>
+                                <td>
+                                    {{ ('table.mixte.title') | trans({}, 'prizes') }}
+                                </td>
+                                <td>
+                                    {{ ('table.open.title') | trans({}, 'prizes') }}
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in 1..6 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.mixte.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.open.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    <table class="prize">
+                        <thead>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    {{ ('table.barometer.title') | trans({}, 'prizes') }}
+                                </td>
+                                <td>
+                                    {{ ('table.imps.title') | trans({}, 'prizes') }}
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in 1..6 %}
+                                <tr>
+                                    <td>
+                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.barometer.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                    <td>
+                                        {{ ('table.imps.'~i) | trans({}, 'prizes') | raw | nl2br }}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+					{#<table class="prize">#}
+						{#<tr>#}
+							{#<td>#}
+								{#{{ ('championship.title') | trans({}, 'prizes') | raw }}#}
+							{#</td>#}
+							{#<td>#}
+								{#{{ ('championship.prize') | trans({}, 'prizes') }}#}
+							{#</td>#}
+						{#</tr>#}
+					{#</table>#}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>{{ 'funbridge.subtitle' | trans({}, 'prizes') }}</strong>
+                    </h2>
+                    <hr>
+                    <p>
+                        {{ ('table.funbridge.text') | trans({}, 'prizes') }}
+                    </p>
+
+                    <table class="funbridge-prize">
+                        {% for i in 1..4 %}
+                            <tr>
+                                <td>
+                                    {{ ('table.funbridge.title.'~i) | trans({}, 'prizes') | raw }}
+                                </td>
+                                <td>
+                                    {{ ('table.funbridge.prize.'~i) | trans({}, 'prizes') | nl2br}}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+
+                    <p>
+                        {{ 'funbridge.text' | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
