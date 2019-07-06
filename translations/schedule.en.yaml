@@ -5,120 +5,85 @@ presentation :
     text: |
         Come and confront Players from all over the world in the prestigious setting of the Paris Country Club.
 
-        Play 4 successive tournaments: mixed (or ladies), Open, barometer and Imps.
+        We offer 4 successive events: Mixed (or Ladies), Open (2 separate tournaments to choose), Barometer and an OPEN combined unprecedented event (a tournament in IMPs + a tournament in pairs with the same partner).
 
-        * Two Separate tournaments will be offered to you for the mixed, the barometer and the Imps. You will be free to choose a tournament open to all or a tournament reserved for 3rd, 4th series’ and unranked players.
 
-        At the end of each session, we will invite you to an aperitif where you can ask your questions to the champions and at the end of each tournament will be held a cocktail with an awards ceremony.
+        At the end of each session you will be invited to an aperitif with the champions. At the end of each tournament we will invite you to a cocktail party with awards ceremony. Each evening will be an optional dinner.
 
         An optional gala dinner will be held on Saturday Night.
+
     fees: |
-        <u>Entry fees:</u>
+        <u> Entry fees for tournaments open to all and endowed in cash and kind: </ u>
 
-        International Festival of Paris
-        - Thursday 25<sup>th</sup> and Friday 26<sup>th</sup> October
-        Mixed (or Ladies) Pairs: 50 Euros per player for the two sessions of 30 boards
-        - Saturday 27<sup>th</sup> and Sunday 28<sup>th</sup> October
-        Open Pairs: 60 Euros per player for the three sessions: two sessions of 18 boards on Saturday and a third session of 30 boards on Sunday
-        - Monday 29<sup>th</sup> and Tuesday 30<sup>st</sup> October
-        Barometer Pairs: 50 Euros per player for the two sessions of 30 boards
-        - Wednesday 31<sup>st</sup> October
-        Imps Pairs: 25 Euros per player for one session of 30 boards
+        - Thursday 24th and Friday 25th October
+        Mixed (or Ladies): 50 euros the two sessions of 30 people per person
+        - Saturday 26th and Sunday 27th of October
+        Open: 60 euros for three sessions per person: two sessions of 18 given on Saturday and a session of 30 given on Sunday
+        - Monday 28th and Tuesday 29th of October
+        Barometer: 50 euros for two sessions of 30 people per person
+        - Wednesday 30 October and Thursday 31 October
+        Combined OPEN event: 50 euros for two sessions per person
 
-        Entry fees of tournaments reserved for 3rd and 4th series and with prizes in kind only: 35Euros for the two sessions per player for the Mixed Pairs or  Barometer’s Pairs, 15 euros for the Imps in one session.
+        Entry fees for the OPEN tournament reserved for the 3rd and 4th series and endowed only in kind: 45 euros for three sessions per person.
 
-        Every evening there will be an optional dinner with musical entertainment or a bridge debate with champions (included for hotel guests, 35€ for others upon reservation).
-        Saturday evening’s Gala dinner: (included for hotel guests, 60 € for others upon reservation).
+        All prices are not cumulative.
 
-        <u>Special offers:</u>
-        Weekly package: 155 € for Mixed (or Ladies), Open, Barometer and Imps
+        <u> Special offers: </ u>
 
-        Weekly package for Series 3 and 4 :105 € for Mixed (or Ladies), Open and Promotion Cup
+        Weekly package for all: 170 € for Mixed (or Ladies), Open, Barometer and Combined.
 
-        Juniors’ (less than 25 years old) entry fees: half of normal entry fees.
+        Junior package: 50% of entry fees.
+
+        Cocktail at the end of each session.
+
+        Dinner every night with debate with the champions (excluding drinks): included in the hotel package, 43 euros per person for non-residents of the hotel by reservation.
+
+        Gala dinner on Saturday evening: 60 euros.
 
 table:
     day:
         title: DAY
-        "0": Wednesday October 24<sup>th</sup>
-        "1": Thursday October 25<sup>th</sup>
-        "2": Friday October 26<sup>th</sup>
-        "3": Saturday October 27<sup>th</sup>
-        "4": Sunday October 28<sup>th</sup>
-        "5": Monday October 29<sup>th</sup>
-        "6": Tuesday October 30<sup>th</sup>
-        "7": Wednesday October 31<sup>st</sup>
+        "0": Thursday October 24<sup>th</sup>
+        "1": Friday October 25<sup>th</sup>
+        "2": Saturday October 26<sup>th</sup>
+        "3": Sunday October 27<sup>th</sup>
+        "4": Monday October 28<sup>th</sup>
+        "5": Tuesday October 29<sup>th</sup>
+        "6": Wednesday October 30<sup>th</sup>
+        "7": Thursday October 31<sup>st</sup>
     schedule:
         title: TIME
         "0":
-            tournament: 2pm
-            cocktail: 6.30pm
-            diner: 8pm
+            tournament: 2.30pm
         "1":
             tournament: 2.30pm
-            cocktail: 6.30pm
-            diner: 8pm
         "2":
             tournament: 2.30pm
-            cocktail: 6.30pm
-            diner: 8pm
         "3":
-            tournament: 2.30pm & 7pm
-            cocktail: 8pm
-            diner: 9pm
+            tournament: 2.30pm
         "4":
             tournament: 2.30pm
-            cocktail: 7pm
-            diner: 8.30pm
         "5":
             tournament: 2.30pm
-            cocktail: 6.30pm
-            diner: 8pm
         "6":
             tournament: 2.30pm
-            cocktail: 6.30pm
-            diner: 8pm
         "7":
             tournament: 2.30pm
-            cocktail: 6.30pm
-            diner: .
     program:
         title: PROGRAM
         "0":
-            tournament: Epsilon cup (For Téléthon)
-            cocktail: Short drink with the champions
-            diner: Dinner*
-        "1":
             tournament: Mixed or Ladies pairs 1<sup>st</sup> session
-            cocktail: Short drink with the champions
-            diner: Dinner*
-        "2":
+        "1":
             tournament: Mixed or Ladies pairs 2<sup>nd</sup> session
-            cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner*
-        "3":
+        "2":
             tournament: Open pairs 1<sup>st</sup> & 2<sup>nd</sup> session
-            cocktail: Short drink with the champions
-            diner: Dinner*
-        "4":
+        "3":
             tournament: Open pairs 3<sup>rd</sup> session
-            cocktail: Cocktail party and prize-giving ceremony
-            diner: Gala dinner**
-        "5":
+        "4":
             tournament: Barometer per pairs 1<sup>st</sup> session
-            cocktail: Short drink with the champions
-            diner: Dinner*
-        "6":
+        "5":
             tournament: Barometer per pairs 2<sup>nd</sup> session
-            cocktail: Cocktail party and prize-giving ceremony
-            diner: Dinner*
+        "6":
+            tournament: Combined open (IMP session)
         "7":
-            tournament: IMPs' pairs
-            cocktail: Cocktail party and prize-giving ceremony
-            diner: .
-
-option:
-    diner: |
-        * Dinner (wines and coffee included) with a debate with the champions included for hotel guets (35€ for non-hotel guests upon reservation).
-    gala: |
-        ** Gala dinner on Sunday 28<sup>th</sup> included for hotel guests (60€ for non-hotel guests upon reservation).
+            tournament: Combined open (Open pairs session)

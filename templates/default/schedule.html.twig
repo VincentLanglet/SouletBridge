@@ -40,32 +40,9 @@
                                         {{ ('table.program.'~i~'.tournament') | trans({}, 'schedule') | raw }}
                                     </td>
                                 </tr>
-                                {#<tr>#}
-                                    {#<td>#}
-                                        {#{{ ('table.schedule.'~i~'.cocktail') | trans({}, 'schedule') }}#}
-                                    {#</td>#}
-                                    {#<td>#}
-                                        {#{{ ('table.program.'~i~'.cocktail') | trans({}, 'schedule') }}#}
-                                    {#</td>#}
-                                {#</tr>#}
-                                {#<tr>#}
-                                    {#<td>#}
-                                        {#{{ ('table.schedule.'~i~'.diner') | trans({}, 'schedule') }}#}
-                                    {#</td>#}
-                                    {#<td>#}
-                                        {#{{ ('table.program.'~i~'.diner') | trans({}, 'schedule') }}#}
-                                    {#</td>#}
-                                {#</tr>#}
                             {% endfor %}
                         </tbody>
                     </table>
-                    {#<p>#}
-                        {#{{ ('option.diner') | trans({}, 'schedule') | nl2br }}#}
-                    {#</p>#}
-                    {#<p>#}
-                        {#{{ ('option.gala') | trans({}, 'schedule') | raw | nl2br }}#}
-                    {#</p>#}
-                    {#<br>#}
                     <p>
                         {{ ('presentation.fees') | trans({}, 'schedule') | raw | nl2br }}
                     </p>
