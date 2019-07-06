@@ -3,74 +3,85 @@ title: Prizes
 prizes:
     subtitle: Festival with great prizes !
 
+mixte:
+    title: MIXTE/DAMES
+    text: |
+        1st prize: 2 watches (men and women) worth € 3750 offered by Maison Poiray
+        2nd prize: 1000 €
+        3rd prize: 600 €
+        Lots in kind for the next 20 pairs
+
+        1st pair without 1st series: 400 € - 1st pair without 2nd series: 300 €
+        Lots in kind for the next 10 pairs without 1st series
+
+open:
+    title: OPEN
+    text: |
+        1st prize: 2000 €
+        2nd prize: 1400 €
+        3rd prize: 800 €
+        4th prize: 600 €
+        5th prize: 500 €
+        Lots in kind for the next 40 pairs
+
+        1st prize without 1st series: 400 €
+        2nd prize without 1st series: 300 €
+        3rd prize without 1st series: 200 €
+
+        Junior prizes offered by the FFB:
+        1st pair: 300 €
+        2nd pair: 200 €
+
+handicap:
+    title: OPEN 3&4
+    text: |
+        1st prize: 36 bottles
+        2nd prize: 24 bottles
+        3rd prize: 18 bottles
+
+        1st pair without 3rd series: 18 bottles
+        2nd pair without 3rd series: 12 bottles
+        Gifts for all participants
+
+barometer:
+    title: BAROMETRE
+    text: |
+        Scratch prize
+        1st prize: 1400 €
+        2nd prize: 800 €
+        3rd prize: 600 €
+        Lots in kind for the next 20 pairs
+
+        Handicap prize
+        1st prize: 500 €
+        2nd prize: 300 €
+        3rd prize: 200 €
+        Lots in kind for the next 10 pairs
+
+combined:
+    title: Combiné
+    text: |
+        Wednesday, October 30th: IMPS Tournament
+        1st prize: 500 €
+        2nd prize: 300 €
+        3rd prize: 200 €
+
+        Thursday October 31st: Pair Tournament
+        1st prize: 500 €
+        2nd prize: 300 €
+        3rd prize: 200 €
+
+        DOTATION OF THE COMBINED
+        1st prize: 800 €
+        2nd prize: 500 €
+        3rd prize: 300 €
+
+        Lots in kind for the next 30 pairs
+        1st prize without 1st series of handset: 36 bottles of wine
+        1st prize without 2nd set of handset: 24 bottles of wine
+        2nd prize without 2nd set of handset: 12 bottles of wine
+
 table:
-    order:
-        "1": 1<sup>st</sup> prize
-        "2": 2<sup>nd</sup> prize
-        "3": 3<sup>rd</sup> prize
-        "4": 4<sup>th</sup> prize
-        "5": Following prizes
-        "6": Special prizes
-    mixte:
-        title: MIXED/LADIES
-        "1": 1500€
-        "2": 800€
-        "3": 500€
-        "4": 300€
-        "5": |
-            Prizes in kind for the next 20 pairs
-        "6": |
-            Pairs without 1<sup>st</sup> series :
-            1<sup>st</sup> prize : 400€
-            2<sup>nd</sup> prize : 300€
-
-            Tournament 3&4<sup>th</sup> series:
-            Prizes in kind for the first 20 pairs
-    imps:
-        title: IMPs
-        "1": 600€
-        "2": 400€
-        "3": 300€
-        "4": 200€
-        "5": |
-            Prizes in kind for the 20 next pairs
-        "6": |
-            1<sup>st</sup> pair without 1<sup>st</sup> series: 300€
-
-            Tournament 3&4<sup>th</sup> series :
-            Prizes in kind for the 20 first pairs
-    open:
-        title: OPEN
-        "1": 2000€
-        "2": 1200€
-        "3": 700€
-        "4": 500€
-        "5": |
-            5<sup>th</sup>: 400€
-            6<sup>th</sup> to 8<sup>th</sup>: 300€
-            Prizes in kind for the 40 next pairs
-        "6": |
-            Pairs 3&4<sup>th</sup> series :
-            1<sup>st</sup> prize: 500€
-            2<sup>nd</sup> prize: 400€
-            3<sup>rd</sup> prize: 300€
-            Prizes in kind for the 10 next pairs
-
-    barometer:
-        title: BAROMETER
-        "1": 1500€
-        "2": 800€
-        "3": 500€
-        "4": 300€
-        "5": |
-            Prizes in kind for the 20 next pairs
-        "6": |
-            Pairs without 1<sup>st</sup> series :
-            1<sup>st</sup> prize : 400€
-            2<sup>nd</sup> prize : 300€
-
-            Tournament 3&4<sup>th</sup> series :
-            Prizes in kind for the 20 first pairs
     funbridge:
         text: For each tournament,
         title:

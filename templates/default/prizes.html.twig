@@ -10,76 +10,40 @@
                         <strong>{{ 'prizes.subtitle' | trans({}, 'prizes') }}</strong>
                     </h2>
                     <hr>
-                    <table class="prize">
-                        <thead>
-							<tr>
-                                <td>
-                                </td>
-                                <td>
-                                    {{ ('table.mixte.title') | trans({}, 'prizes') }}
-                                </td>
-                                <td>
-                                    {{ ('table.open.title') | trans({}, 'prizes') }}
-                                </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for i in 1..6 %}
-                                <tr>
-                                    <td>
-                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.mixte.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.open.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-
-                    <table class="prize">
-                        <thead>
-                            <tr>
-                                <td>
-                                </td>
-                                <td>
-                                    {{ ('table.barometer.title') | trans({}, 'prizes') }}
-                                </td>
-                                <td>
-                                    {{ ('table.imps.title') | trans({}, 'prizes') }}
-                                </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for i in 1..6 %}
-                                <tr>
-                                    <td>
-                                        {{ ('table.order.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.barometer.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                    <td>
-                                        {{ ('table.imps.'~i) | trans({}, 'prizes') | raw | nl2br }}
-                                    </td>
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-
-					{#<table class="prize">#}
-						{#<tr>#}
-							{#<td>#}
-								{#{{ ('championship.title') | trans({}, 'prizes') | raw }}#}
-							{#</td>#}
-							{#<td>#}
-								{#{{ ('championship.prize') | trans({}, 'prizes') }}#}
-							{#</td>#}
-						{#</tr>#}
-					{#</table>#}
+                    <h3 class="text-center">
+                        {{ ('mixte.title') | trans({}, 'prizes') | nl2br }}
+                    </h3>
+                    <p class="text-center">
+                        {{ ('mixte.text') | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
+                    <hr>
+                    <h3 class="text-center">
+                        {{ ('open.title') | trans({}, 'prizes') | nl2br }}
+                    </h3>
+                    <p class="text-center">
+                        {{ ('open.text') | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
+                    <hr>
+                    <h3 class="text-center">
+                        {{ ('handicap.title') | trans({}, 'prizes') | nl2br }}
+                    </h3>
+                    <p class="text-center">
+                        {{ ('handicap.text') | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
+                    <hr>
+                    <h3 class="text-center">
+                        {{ ('barometer.title') | trans({}, 'prizes') | nl2br }}
+                    </h3>
+                    <p class="text-center">
+                        {{ ('barometer.text') | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
+                    <hr>
+                    <h3 class="text-center">
+                        {{ ('combined.title') | trans({}, 'prizes') | nl2br }}
+                    </h3>
+                    <p class="text-center">
+                        {{ ('combined.text') | trans({}, 'prizes') | raw | nl2br }}
+                    </p>
                 </div>
             </div>
         </div>
